@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -12,7 +13,7 @@ const recipes = [
   { name: 'SHAKES DETOX SABOROSOS', meta: '6 MINUTOS / 120 CALORIAS', imgId: 'recipe-shakes' },
   { name: 'BOLO DE BANANA DE CANECA', meta: '3 INGREDIENTES / 175 CALORIAS', imgId: 'recipe-bolo-caneca' },
   { name: 'SANDUÍCHE PROTEICO DE FRIGIDEIRA', meta: '10 MINUTOS / 180 CALORIAS', imgId: 'recipe-sanduiche' },
-  { name: 'BROWNIE DE FRIGIDEIRA (3 ING.)', meta: '10 MINUTOS / 176 CALORIAS', imgId: 'recipe-frigideira' },
+  { name: 'BROWNIE DE FRIGIDEIRA (3 ING.)', meta: '10 MINUTOS / 176 CALORIAS', imgId: 'recipe-brownie' },
 ];
 
 export function RecipeGrid() {

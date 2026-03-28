@@ -79,6 +79,12 @@
       "imageHint": "protein sandwich"
     },
     {
+      "id": "recipe-brownie",
+      "description": "Brownie de frigideira",
+      "imageUrl": "https://image2url.com/r2/default/images/1774739300746-292c8d91-b1c5-425f-bcc7-8ac04fdc5757.blob",
+      "imageHint": "chocolate brownie"
+    },
+    {
       "id": "nutritionist",
       "description": "Shopia Fonseca - Nutricionista",
       "imageUrl": "https://image2url.com/r2/default/images/1774732606745-81c07013-c3a0-4315-8b17-a1148b59b8ed.blob",
