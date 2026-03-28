@@ -106,7 +106,7 @@ export default function Home() {
           <h2 className="mb-12 text-center font-headline text-2xl font-normal">
             VEJA AS <b className="font-extrabold uppercase">VANTAGENS</b>
           </h2>
-          <ul className="space-y-6">
+          <ul className="space-y-2">
             {[
               'Cardápio criado por uma nutricionista',
               'Mais de 350 opções saudáveis',
