@@ -22,7 +22,7 @@ export default function Home() {
           <h2 className="mb-12 text-center font-headline text-2xl font-normal text-[#3D1F08]">
             O QUE VOCÊ<br /><b className="font-extrabold uppercase">VAI ENCONTRAR:</b>
           </h2>
-          <ul className="space-y-3">
+          <ul className="space-y-2">
             {[
               { icon: '✓', text: 'Receitas de até 350 calorias' },
               { icon: '☺', text: 'Com sabores deliciosos de verdade' },
