@@ -56,7 +56,7 @@ export default function Home() {
           <div className="relative h-[450px] overflow-hidden rounded-2xl shadow-2xl md:h-[600px]">
             <Image
               src={nutritionist.imageUrl}
-              alt="Camila Moura"
+              alt="Shopia Fonseca"
               fill
               className="object-cover"
               data-ai-hint={nutritionist.imageHint}
@@ -64,10 +64,10 @@ export default function Home() {
           </div>
           <div className="text-left">
             <h2 className="font-headline text-2xl font-normal leading-tight">
-              CARDÁPIO FEITO<br /><b className="font-extrabold uppercase text-primary">PELA NUTRICIONISTA</b><br />CAMILA MOURA
+              CARDÁPIO FEITO<br /><b className="font-extrabold uppercase text-primary">PELA NUTRICIONISTA</b><br />SHOPIA FONSECA
             </h2>
             <p className="mt-8 text-lg leading-relaxed text-muted-foreground md:text-xl">
-              Camila Moura, nutricionista especializada em alimentação funcional, criou mais de 350 receitas de cafés da manhã saudáveis, deliciosos de verdade e que ficam prontos em até 15 minutos. Cada receita foi pensada para oferecer todos os nutrientes que seu corpo precisa logo no início do dia, com foco no sabor e na praticidade.
+              Shopia Fonseca, nutricionista especializada em alimentação funcional, criou mais de 350 receitas de cafés da manhã saudáveis, deliciosos de verdade e que ficam prontos em até 15 minutos. Cada receita foi pensada para oferecer todos os nutrientes que seu corpo precisa logo no início do dia, com foco no sabor e na praticidade.
             </p>
           </div>
         </div>
