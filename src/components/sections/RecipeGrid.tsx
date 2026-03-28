@@ -47,7 +47,7 @@ export function RecipeGrid() {
         </div>
 
         <div className="mt-16 text-center">
-          <h3 className="font-headline text-3xl font-extrabold text-foreground md:text-4xl">
+          <h3 className="font-headline text-2xl font-extrabold text-foreground">
             + 350 OUTRAS <span className="text-primary">OPÇÕES DA NUTRI!</span>
           </h3>
           <div className="mt-8">
