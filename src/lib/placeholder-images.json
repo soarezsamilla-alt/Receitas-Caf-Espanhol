@@ -61,6 +61,12 @@
       "imageHint": "bread cheese"
     },
     {
+      "id": "recipe-shakes",
+      "description": "Shakes detox saborosos",
+      "imageUrl": "https://image2url.com/r2/default/images/1774738318507-a62dc767-458a-41e4-87e1-7cfac54d2b46.blob",
+      "imageHint": "detox shake"
+    },
+    {
       "id": "nutritionist",
       "description": "Shopia Fonseca - Nutricionista",
       "imageUrl": "https://image2url.com/r2/default/images/1774732606745-81c07013-c3a0-4315-8b17-a1148b59b8ed.blob",

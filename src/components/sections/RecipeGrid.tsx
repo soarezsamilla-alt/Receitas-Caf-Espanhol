@@ -9,7 +9,7 @@ const recipes = [
   { name: 'OMELETE DE FRIOS TOSTADA', meta: '9 MINUTOS / 125 CALORIAS', imgId: 'recipe-omelete' },
   { name: 'SALADA DE FRUTAS DIGESTIVAS', meta: '6 FRUTAS / 120 CALORIAS', imgId: 'recipe-salada' },
   { name: 'PÃO CREMOSO GRATINADO', meta: '8 MINUTOS / 170 CALORIAS', imgId: 'recipe-pao' },
-  { name: 'SHAKES DETOX SABOROSOS', meta: '6 MINUTOS / 120 CALORIAS', imgId: 'hero-breakfast-4' },
+  { name: 'SHAKES DETOX SABOROSOS', meta: '6 MINUTOS / 120 CALORIAS', imgId: 'recipe-shakes' },
   { name: 'BOLO DE BANANA DE CANECA', meta: '3 INGREDIENTES / 175 CALORIAS', imgId: 'recipe-panqueca' },
   { name: 'SANDUÍCHE PROTEICO DE FRIGIDEIRA', meta: '10 MINUTOS / 180 CALORIAS', imgId: 'hero-breakfast-1' },
   { name: 'BROWNIE DE FRIGIDEIRA (3 ING.)', meta: '10 MINUTOS / 176 CALORIAS', imgId: 'recipe-frigideira' },
