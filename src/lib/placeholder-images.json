@@ -73,6 +73,12 @@
       "imageHint": "banana cake"
     },
     {
+      "id": "recipe-sanduiche",
+      "description": "Sanduíche proteico de frigideira",
+      "imageUrl": "https://image2url.com/r2/default/images/1774739038523-023382fe-57ea-4905-97c3-26b206c0a137.blob",
+      "imageHint": "protein sandwich"
+    },
+    {
       "id": "nutritionist",
       "description": "Shopia Fonseca - Nutricionista",
       "imageUrl": "https://image2url.com/r2/default/images/1774732606745-81c07013-c3a0-4315-8b17-a1148b59b8ed.blob",
