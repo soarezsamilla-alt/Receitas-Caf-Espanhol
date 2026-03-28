@@ -1,10 +1,8 @@
-
 import { Hero } from '@/components/sections/Hero';
 import { RecipeGrid } from '@/components/sections/RecipeGrid';
 import { Bonuses } from '@/components/sections/Bonuses';
 import { Offer } from '@/components/sections/Offer';
 import { FAQ } from '@/components/sections/FAQ';
-import { AITool } from '@/components/sections/AITool';
 import { Footer } from '@/components/sections/Footer';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -51,9 +49,6 @@ export default function Home() {
       </section>
 
       <RecipeGrid />
-
-      {/* AI Tool Integrated */}
-      <AITool />
 
       {/* Nutritionist Profile */}
       <section className="bg-background px-4 py-20">
