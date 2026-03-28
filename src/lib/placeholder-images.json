@@ -26,19 +26,19 @@
     },
     {
       "id": "recipe-frigideira",
-      "description": "Skillet breakfast with eggs",
+      "description": "Café de frigideira com ovos e frios",
       "imageUrl": "https://image2url.com/r2/default/images/1774732606745-81c07013-c3a0-4315-8b17-a1148b59b8ed.blob",
       "imageHint": "egg skillet"
     },
     {
       "id": "recipe-pizza",
-      "description": "Healthy flatbread pizza",
+      "description": "Pizza rápida de frigideira",
       "imageUrl": "https://image2url.com/r2/default/images/1774733155375-b9ef8a1c-6787-45b4-a6f8-11d0f5f84085.blob",
       "imageHint": "healthy pizza"
     },
     {
       "id": "recipe-panqueca",
-      "description": "Banana pancakes",
+      "description": "Panqueca fit de banana",
       "imageUrl": "https://image2url.com/r2/default/images/1774733604609-f241422e-e402-4b40-9cac-41c27d6c3e18.blob",
       "imageHint": "banana pancakes"
     },
@@ -65,6 +65,12 @@
       "description": "Shakes detox saborosos",
       "imageUrl": "https://image2url.com/r2/default/images/1774738318507-a62dc767-458a-41e4-87e1-7cfac54d2b46.blob",
       "imageHint": "detox shake"
+    },
+    {
+      "id": "recipe-bolo-caneca",
+      "description": "Bolo de banana de caneca",
+      "imageUrl": "https://image2url.com/r2/default/images/1774738644316-c41dd96f-890c-454f-8603-4b23afb8285f.blob",
+      "imageHint": "banana cake"
     },
     {
       "id": "nutritionist",
