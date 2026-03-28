@@ -116,7 +116,7 @@ export default function Home() {
               'Não precisa de utensílios profissionais',
               'Nutrição completa pra começar o dia',
             ].map((adv, idx) => (
-              <li key={idx} className="flex items-start gap-4 text-xl font-medium leading-tight">
+              <li key={idx} className="flex items-start gap-4 text-base font-medium leading-tight">
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-xl font-bold text-primary">
                   <Check />
                 </span>
