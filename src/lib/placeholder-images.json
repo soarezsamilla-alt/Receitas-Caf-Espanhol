@@ -55,6 +55,12 @@
       "imageHint": "fruit salad"
     },
     {
+      "id": "recipe-pao",
+      "description": "Pão cremoso gratinado",
+      "imageUrl": "https://image2url.com/r2/default/images/1774738002856-577df9c1-f1e8-4b0f-b577-98478f1f63b0.blob",
+      "imageHint": "bread cheese"
+    },
+    {
       "id": "nutritionist",
       "description": "Shopia Fonseca - Nutricionista",
       "imageUrl": "https://image2url.com/r2/default/images/1774732606745-81c07013-c3a0-4315-8b17-a1148b59b8ed.blob",
