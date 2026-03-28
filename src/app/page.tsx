@@ -62,8 +62,8 @@ export default function Home() {
               data-ai-hint={nutritionist.imageHint}
             />
           </div>
-          <div className="text-left">
-            <h2 className="font-headline text-2xl font-normal leading-tight">
+          <div className="text-center md:text-left">
+            <h2 className="font-headline text-2xl font-normal leading-tight text-center md:text-left">
               CARDÁPIO FEITO<br /><b className="font-extrabold uppercase text-primary">PELA NUTRICIONISTA</b><br />SHOPIA FONSECA
             </h2>
             <p className="mt-8 text-lg leading-relaxed text-muted-foreground md:text-xl">
