@@ -38,7 +38,7 @@ const faqs = [
 
 export function FAQ() {
   return (
-    <section className="bg-secondary px-4 py-20">
+    <section className="bg-secondary px-4 py-10">
       <div className="mx-auto max-w-4xl">
         <div className="relative mb-16 text-center">
           <div className="absolute top-1/2 hidden h-[2px] w-full bg-primary md:block"></div>

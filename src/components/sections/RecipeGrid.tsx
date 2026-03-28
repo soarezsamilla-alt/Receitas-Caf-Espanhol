@@ -17,7 +17,7 @@ const recipes = [
 
 export function RecipeGrid() {
   return (
-    <section className="bg-secondary px-4 py-20">
+    <section className="bg-secondary px-4 py-10">
       <div className="mx-auto max-w-6xl">
         <h2 className="mb-12 text-center font-headline text-2xl font-normal leading-tight text-foreground">
           VEJA O QUE VOCÊ<br /><b className="font-extrabold uppercase">VAI APRENDER:</b>

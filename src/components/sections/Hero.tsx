@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -8,7 +7,7 @@ export function Hero() {
   const marqueeImages = [...images, ...images]; // Duplicate for infinite scroll effect
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-[#3D1F08] to-[#5a2f0f] px-4 py-20 text-center text-white">
+    <section className="relative overflow-hidden bg-gradient-to-br from-[#3D1F08] to-[#5a2f0f] px-4 py-10 text-center text-white">
       {/* Background SVG Wave */}
       <div className="absolute inset-0 z-0 opacity-10">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="absolute bottom-0 w-full">
@@ -21,7 +20,7 @@ export function Hero() {
           +350 CAFÉS DA MANHÃ DE NUTRI RÁPIDOS, BARATOS E GOSTOSOS PRA EMAGRECER SEM SOFRER
         </h1>
         <p className="mx-auto mt-8 max-w-3xl text-base text-[#FAE8CE]">
-          Prontas em 15 minutos, com ingredientes que você já tem em casa.
+          Prontas em até 15 minutos, com ingredientes que você já tem em casa.
           Pare de comer o mesmo pão com ovo por falta de tempo e criatividade.
         </p>
 

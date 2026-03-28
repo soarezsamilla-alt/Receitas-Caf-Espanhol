@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { CheckCircle2 } from 'lucide-react';
@@ -16,7 +15,7 @@ export function Offer() {
   const mockup = PlaceHolderImages.find(p => p.id === 'ebook-mockup') || PlaceHolderImages[0];
   
   return (
-    <section id="price" className="bg-secondary px-4 py-24">
+    <section id="price" className="bg-secondary px-4 py-12">
       <div className="mx-auto max-w-2xl">
         <div className="overflow-hidden rounded-3xl bg-[#BF4D07] shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
           <div className="p-8 text-center md:p-12">

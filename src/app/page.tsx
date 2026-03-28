@@ -17,7 +17,7 @@ export default function Home() {
       <Hero />
 
       {/* Benefits Section */}
-      <section className="bg-background px-4 py-20">
+      <section className="bg-background px-4 py-10">
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-12 text-center font-headline text-2xl font-normal text-[#3D1F08]">
             O QUE VOCÊ<br /><b className="font-extrabold uppercase">VAI ENCONTRAR:</b>
@@ -51,7 +51,7 @@ export default function Home() {
       <RecipeGrid />
 
       {/* Nutritionist Profile */}
-      <section className="bg-background px-4 py-20">
+      <section className="bg-background px-4 py-10">
         <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
           <div className="relative aspect-[1376/768] w-full overflow-hidden rounded-2xl shadow-2xl">
             <Image
@@ -76,7 +76,7 @@ export default function Home() {
       <Bonuses />
 
       {/* Problems Section */}
-      <section className="bg-white px-4 py-20">
+      <section className="bg-white px-4 py-10">
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-12 text-center font-headline text-2xl font-normal text-[#3D1F08]">
             PARA PESSOAS<br /><b className="font-extrabold uppercase">QUE ENFRENTAM:</b>
@@ -101,7 +101,7 @@ export default function Home() {
       </section>
 
       {/* Advantages Section */}
-      <section className="bg-[#3D1F08] px-4 py-20 text-white">
+      <section className="bg-[#3D1F08] px-4 py-10 text-white">
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-12 text-center font-headline text-2xl font-normal">
             VEJA AS <b className="font-extrabold uppercase">VANTAGENS</b>
@@ -133,7 +133,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="bg-secondary px-4 py-20">
+      <section className="bg-secondary px-4 py-10">
         <div className="mx-auto max-w-6xl">
           <h2 className="mb-12 text-center font-headline text-2xl font-normal text-[#3D1F08]">
             VEJA O QUE DIZ<br /><b className="font-extrabold uppercase">QUEM ADQUIRIU:</b>
@@ -158,7 +158,7 @@ export default function Home() {
       <Offer />
 
       {/* Guarantee Section */}
-      <section className="bg-[#3D1F08] px-4 py-20">
+      <section className="bg-[#3D1F08] px-4 py-10">
         <div className="mx-auto max-w-3xl rounded-3xl bg-primary p-12 text-center text-white shadow-2xl">
           <h3 className="mb-6 font-headline text-3xl font-extrabold md:text-4xl">
             Devolvemos seu Dinheiro e<br />você Fica com o Produto!
@@ -170,7 +170,7 @@ export default function Home() {
       </section>
 
       {/* How to Receive Section */}
-      <section className="bg-background px-4 py-20">
+      <section className="bg-background px-4 py-10">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="mb-12 font-headline text-2xl font-normal text-[#3D1F08]">
             COMO IREI<br /><b className="font-extrabold uppercase">RECEBER AS RECEITAS?</b>
