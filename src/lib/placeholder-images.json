@@ -49,6 +49,12 @@
       "imageHint": "omelette cheese"
     },
     {
+      "id": "recipe-salada",
+      "description": "Salada de frutas digestivas",
+      "imageUrl": "https://image2url.com/r2/default/images/1774734387887-4bcfeab1-723b-4311-98d3-dfade64845c7.blob",
+      "imageHint": "fruit salad"
+    },
+    {
       "id": "nutritionist",
       "description": "Shopia Fonseca - Nutricionista",
       "imageUrl": "https://image2url.com/r2/default/images/1774732606745-81c07013-c3a0-4315-8b17-a1148b59b8ed.blob",

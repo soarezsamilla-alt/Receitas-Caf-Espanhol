@@ -8,7 +8,7 @@ const recipes = [
   { name: 'PIZZA RÁPIDA DE FRIGIDEIRA', meta: '3 INGREDIENTES / 207 CALORIAS', imgId: 'recipe-pizza' },
   { name: 'PANQUECA FIT DE BANANA', meta: '7 MINUTOS / 183 CALORIAS', imgId: 'recipe-panqueca' },
   { name: 'OMELETE DE FRIOS TOSTADA', meta: '9 MINUTOS / 125 CALORIAS', imgId: 'recipe-omelete' },
-  { name: 'SALADA DE FRUTAS DIGESTIVAS', meta: '6 FRUTAS / 120 CALORIAS', imgId: 'hero-breakfast-2' },
+  { name: 'SALADA DE FRUTAS DIGESTIVAS', meta: '6 FRUTAS / 120 CALORIAS', imgId: 'recipe-salada' },
   { name: 'PÃO CREMOSO GRATINADO', meta: '8 MINUTOS / 170 CALORIAS', imgId: 'hero-breakfast-3' },
   { name: 'SHAKES DETOX SABOROSOS', meta: '6 MINUTOS / 120 CALORIAS', imgId: 'hero-breakfast-4' },
   { name: 'BOLO DE BANANA DE CANECA', meta: '3 INGREDIENTES / 175 CALORIAS', imgId: 'recipe-panqueca' },
