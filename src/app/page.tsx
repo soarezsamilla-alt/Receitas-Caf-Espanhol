@@ -19,7 +19,7 @@ export default function Home() {
       {/* Benefits Section */}
       <section className="bg-background px-4 py-20">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-12 text-center font-headline text-4xl font-normal text-[#3D1F08] md:text-5xl">
+          <h2 className="mb-12 text-center font-headline text-2xl font-normal text-[#3D1F08]">
             O QUE VOCÊ<br /><b className="font-extrabold uppercase">VAI ENCONTRAR:</b>
           </h2>
           <ul className="space-y-6">
@@ -63,7 +63,7 @@ export default function Home() {
             />
           </div>
           <div className="text-left">
-            <h2 className="font-headline text-3xl font-normal leading-tight md:text-5xl">
+            <h2 className="font-headline text-2xl font-normal leading-tight">
               CARDÁPIO FEITO<br /><b className="font-extrabold uppercase text-primary">PELA NUTRICIONISTA</b><br />CAMILA MOURA
             </h2>
             <p className="mt-8 text-lg leading-relaxed text-muted-foreground md:text-xl">
@@ -78,7 +78,7 @@ export default function Home() {
       {/* Problems Section */}
       <section className="bg-white px-4 py-20">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-12 text-center font-headline text-4xl font-normal text-[#3D1F08] md:text-5xl">
+          <h2 className="mb-12 text-center font-headline text-2xl font-normal text-[#3D1F08]">
             PARA PESSOAS<br /><b className="font-extrabold uppercase">QUE ENFRENTAM:</b>
           </h2>
           <ul className="space-y-6">
@@ -103,7 +103,7 @@ export default function Home() {
       {/* Advantages Section */}
       <section className="bg-[#3D1F08] px-4 py-20 text-white">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-12 text-center font-headline text-4xl font-normal md:text-5xl">
+          <h2 className="mb-12 text-center font-headline text-2xl font-normal">
             VEJA AS <b className="font-extrabold uppercase">VANTAGENS</b>
           </h2>
           <ul className="space-y-6">
@@ -135,7 +135,7 @@ export default function Home() {
       {/* Testimonials */}
       <section className="bg-secondary px-4 py-20">
         <div className="mx-auto max-w-6xl">
-          <h2 className="mb-12 text-center font-headline text-4xl font-normal text-[#3D1F08] md:text-5xl">
+          <h2 className="mb-12 text-center font-headline text-2xl font-normal text-[#3D1F08]">
             VEJA O QUE DIZ<br /><b className="font-extrabold uppercase">QUEM ADQUIRIU:</b>
           </h2>
           <div className="flex gap-6 overflow-x-auto pb-8 scrollbar-hide">
@@ -172,7 +172,7 @@ export default function Home() {
       {/* How to Receive Section */}
       <section className="bg-background px-4 py-20">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="mb-12 font-headline text-4xl font-normal text-[#3D1F08] md:text-5xl">
+          <h2 className="mb-12 font-headline text-2xl font-normal text-[#3D1F08]">
             COMO IREI<br /><b className="font-extrabold uppercase">RECEBER AS RECEITAS?</b>
           </h2>
           

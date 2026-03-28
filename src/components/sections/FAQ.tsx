@@ -1,4 +1,3 @@
-
 import {
   Accordion,
   AccordionContent,
@@ -43,7 +42,7 @@ export function FAQ() {
       <div className="mx-auto max-w-4xl">
         <div className="relative mb-16 text-center">
           <div className="absolute top-1/2 hidden h-[2px] w-full bg-primary md:block"></div>
-          <h2 className="relative inline-block bg-secondary px-8 font-headline text-3xl font-extrabold text-[#3D1F08] md:text-4xl">
+          <h2 className="relative inline-block bg-secondary px-8 font-headline text-2xl font-extrabold text-[#3D1F08]">
             DÚVIDAS FREQUENTES
           </h2>
         </div>

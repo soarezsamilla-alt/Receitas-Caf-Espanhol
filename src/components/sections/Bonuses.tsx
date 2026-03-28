@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
@@ -40,7 +39,7 @@ export function Bonuses() {
   return (
     <section className="bg-secondary px-4 py-20">
       <div className="mx-auto max-w-6xl">
-        <h2 className="mb-12 text-center font-headline text-4xl font-normal leading-tight text-foreground md:text-5xl">
+        <h2 className="mb-12 text-center font-headline text-2xl font-normal leading-tight text-foreground">
           RECEBA AINDA<br /><b className="font-extrabold uppercase tracking-tight">+ 5 BÔNUS EXCLUSIVOS:</b>
         </h2>
         
