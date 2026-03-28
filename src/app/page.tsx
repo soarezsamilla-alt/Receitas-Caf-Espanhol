@@ -33,7 +33,7 @@ export default function Home() {
               { icon: '📋', text: 'Passo a passo de preparo' },
             ].map((item, idx) => (
               <li key={idx} className="flex items-start gap-4 text-base font-medium leading-tight">
-                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-lg font-bold text-white">
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-base font-bold text-white">
                   {item.icon}
                 </span>
                 <span className="pt-1">{item.text}</span>
@@ -90,8 +90,8 @@ export default function Home() {
               'Falta de nutrientes necessários para o dia',
             ].map((problem, idx) => (
               <li key={idx} className="flex items-start gap-4 text-base font-medium leading-tight text-[#3D1F08]">
-                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-xl font-bold text-white">
-                  <X />
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-lg font-bold text-white">
+                  <X className="h-4 w-4" />
                 </span>
                 <span className="pt-1">{problem}</span>
               </li>
@@ -117,8 +117,8 @@ export default function Home() {
               'Nutrição completa pra começar o dia',
             ].map((adv, idx) => (
               <li key={idx} className="flex items-start gap-4 text-base font-medium leading-tight">
-                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white text-xl font-bold text-primary">
-                  <Check />
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white text-lg font-bold text-primary">
+                  <Check className="h-4 w-4" />
                 </span>
                 <span className="pt-1">{adv}</span>
               </li>
