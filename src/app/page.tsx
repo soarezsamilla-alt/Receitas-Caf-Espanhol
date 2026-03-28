@@ -27,7 +27,7 @@ export default function Home() {
               { icon: '✓', text: 'Receitas de até 350 calorias' },
               { icon: '☺', text: 'Com sabores deliciosos de verdade' },
               { icon: '🥄', text: 'Com proteínas e vitaminas essenciais' },
-              { icon: '⏰', text: 'Prontas em 15 minutos' },
+              { icon: '⏰', text: 'Prontas em até 15 minutos' },
               { icon: '🛒', text: 'Com ingredientes comuns' },
               { icon: '🍴', text: 'Use apenas liquidificador e frigideira' },
               { icon: '📋', text: 'Passo a passo de preparo' },
