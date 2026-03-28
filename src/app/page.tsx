@@ -32,8 +32,8 @@ export default function Home() {
               { icon: '🍴', text: 'Use apenas liquidificador e frigideira' },
               { icon: '📋', text: 'Passo a passo de preparo' },
             ].map((item, idx) => (
-              <li key={idx} className="flex items-start gap-4 text-xl font-medium leading-tight">
-                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-xl font-bold text-white">
+              <li key={idx} className="flex items-start gap-4 text-base font-medium leading-tight">
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-lg font-bold text-white">
                   {item.icon}
                 </span>
                 <span className="pt-1">{item.text}</span>
