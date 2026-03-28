@@ -1,3 +1,106 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-breakfast-1",
+      "description": "Healthy avocado toast with eggs",
+      "imageUrl": "https://picsum.photos/seed/10/600/400",
+      "imageHint": "healthy breakfast"
+    },
+    {
+      "id": "hero-breakfast-2",
+      "description": "Fruit bowl with granola and yogurt",
+      "imageUrl": "https://picsum.photos/seed/11/600/400",
+      "imageHint": "fruit bowl"
+    },
+    {
+      "id": "hero-breakfast-3",
+      "description": "Protein pancakes with blueberries",
+      "imageUrl": "https://picsum.photos/seed/12/600/400",
+      "imageHint": "protein pancakes"
+    },
+    {
+      "id": "hero-breakfast-4",
+      "description": "Smoothie bowl with seeds",
+      "imageUrl": "https://picsum.photos/seed/13/600/400",
+      "imageHint": "smoothie bowl"
+    },
+    {
+      "id": "recipe-frigideira",
+      "description": "Skillet breakfast with eggs",
+      "imageUrl": "https://picsum.photos/seed/14/400/300",
+      "imageHint": "egg skillet"
+    },
+    {
+      "id": "recipe-pizza",
+      "description": "Healthy flatbread pizza",
+      "imageUrl": "https://picsum.photos/seed/15/400/300",
+      "imageHint": "healthy pizza"
+    },
+    {
+      "id": "recipe-panqueca",
+      "description": "Banana pancakes",
+      "imageUrl": "https://picsum.photos/seed/16/400/300",
+      "imageHint": "banana pancakes"
+    },
+    {
+      "id": "nutritionist",
+      "description": "Professional nutritionist smiling",
+      "imageUrl": "https://picsum.photos/seed/20/600/800",
+      "imageHint": "nutritionist woman"
+    },
+    {
+      "id": "bonus-desserts",
+      "description": "Sugar-free healthy dessert",
+      "imageUrl": "https://picsum.photos/seed/21/400/300",
+      "imageHint": "healthy dessert"
+    },
+    {
+      "id": "bonus-lunch",
+      "description": "Healthy meal prep boxes",
+      "imageUrl": "https://picsum.photos/seed/22/400/300",
+      "imageHint": "meal prep"
+    },
+    {
+      "id": "bonus-detox",
+      "description": "Green detox juice",
+      "imageUrl": "https://picsum.photos/seed/23/400/300",
+      "imageHint": "detox juice"
+    },
+    {
+      "id": "bonus-anti-inflammatory",
+      "description": "Vibrant healthy salad bowl",
+      "imageUrl": "https://picsum.photos/seed/24/400/300",
+      "imageHint": "healthy salad"
+    },
+    {
+      "id": "bonus-bread",
+      "description": "Gluten-free artisanal bread",
+      "imageUrl": "https://picsum.photos/seed/25/400/300",
+      "imageHint": "gluten free bread"
+    },
+    {
+      "id": "ebook-mockup",
+      "description": "Digital product mockup on tablet and phone",
+      "imageUrl": "https://picsum.photos/seed/30/600/600",
+      "imageHint": "ebook mockup"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Happy woman with healthy meal",
+      "imageUrl": "https://picsum.photos/seed/41/400/500",
+      "imageHint": "happy woman"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Transformation success photo",
+      "imageUrl": "https://picsum.photos/seed/42/400/500",
+      "imageHint": "fitness woman"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Happy couple eating breakfast",
+      "imageUrl": "https://picsum.photos/seed/43/400/500",
+      "imageHint": "happy couple"
+    }
+  ]
 }
