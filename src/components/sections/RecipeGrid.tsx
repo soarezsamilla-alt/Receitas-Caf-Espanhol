@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -6,7 +7,7 @@ const recipes = [
   { name: 'CAFÉ DE FRIGIDEIRA COM OVOS E FRIOS', meta: '10 MINUTOS / 195 CALORIAS', imgId: 'recipe-frigideira' },
   { name: 'PIZZA RÁPIDA DE FRIGIDEIRA', meta: '3 INGREDIENTES / 207 CALORIAS', imgId: 'recipe-pizza' },
   { name: 'PANQUECA FIT DE BANANA', meta: '7 MINUTOS / 183 CALORIAS', imgId: 'recipe-panqueca' },
-  { name: 'OMELETE DE FRIOS TOSTADA', meta: '9 MINUTOS / 125 CALORIAS', imgId: 'hero-breakfast-1' },
+  { name: 'OMELETE DE FRIOS TOSTADA', meta: '9 MINUTOS / 125 CALORIAS', imgId: 'recipe-omelete' },
   { name: 'SALADA DE FRUTAS DIGESTIVAS', meta: '6 FRUTAS / 120 CALORIAS', imgId: 'hero-breakfast-2' },
   { name: 'PÃO CREMOSO GRATINADO', meta: '8 MINUTOS / 170 CALORIAS', imgId: 'hero-breakfast-3' },
   { name: 'SHAKES DETOX SABOROSOS', meta: '6 MINUTOS / 120 CALORIAS', imgId: 'hero-breakfast-4' },

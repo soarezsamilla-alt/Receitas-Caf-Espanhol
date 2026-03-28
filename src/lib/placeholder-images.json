@@ -43,6 +43,12 @@
       "imageHint": "banana pancakes"
     },
     {
+      "id": "recipe-omelete",
+      "description": "Omelete de frios tostada",
+      "imageUrl": "https://image2url.com/r2/default/images/1774734067258-a3ad31ed-eae0-465e-9480-afb3d91b703f.blob",
+      "imageHint": "omelette cheese"
+    },
+    {
       "id": "nutritionist",
       "description": "Shopia Fonseca - Nutricionista",
       "imageUrl": "https://image2url.com/r2/default/images/1774732606745-81c07013-c3a0-4315-8b17-a1148b59b8ed.blob",
