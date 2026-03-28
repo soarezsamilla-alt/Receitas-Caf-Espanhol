@@ -81,7 +81,7 @@ export default function Home() {
           <h2 className="mb-12 text-center font-headline text-2xl font-normal text-[#3D1F08]">
             PARA PESSOAS<br /><b className="font-extrabold uppercase">QUE ENFRENTAM:</b>
           </h2>
-          <ul className="space-y-6">
+          <ul className="space-y-3">
             {[
               'Falta de opções saudáveis de café da manhã',
               'Dificuldade em perder peso e alimentar-se bem',
