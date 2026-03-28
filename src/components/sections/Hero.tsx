@@ -17,7 +17,7 @@ export function Hero() {
       </div>
 
       <div className="relative z-10 mx-auto max-w-6xl">
-        <h1 className="font-headline text-3xl font-extrabold uppercase leading-tight tracking-tight md:text-5xl lg:text-6xl">
+        <h1 className="font-headline text-2xl font-extrabold uppercase leading-tight tracking-tight">
           +350 CAFÉS DA MANHÃ DE NUTRI
           <span className="block mt-2 text-white">RÁPIDOS, BARATOS E GOSTOSOS PRA EMAGRECER SEM SOFRER</span>
         </h1>
@@ -45,7 +45,7 @@ export function Hero() {
         </div>
 
         <div className="mt-12">
-          <Button asChild size="lg" className="h-16 rounded-full px-12 text-xl font-bold uppercase tracking-wide transition-transform hover:scale-105">
+          <Button asChild size="lg" className="h-16 rounded-full bg-primary px-12 text-xl font-bold uppercase tracking-wide transition-transform hover:scale-105">
             <a href="#price">Quero as Receitas!</a>
           </Button>
         </div>
