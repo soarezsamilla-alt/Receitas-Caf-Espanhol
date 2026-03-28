@@ -72,7 +72,7 @@ export default function Home() {
               CARDÁPIO FEITO<br /><b className="font-extrabold uppercase text-primary">PELA NUTRICIONISTA</b><br />CAMILA MOURA
             </h2>
             <p className="mt-8 text-lg leading-relaxed text-muted-foreground md:text-xl">
-              Camila Moura, nutricionista especializada em alimentação funcional, criou mais de 200 receitas de cafés da manhã saudáveis, deliciosos de verdade e que ficam prontos em até 15 minutos. Cada receita foi pensada para oferecer todos os nutrientes que seu corpo precisa logo no início do dia, com foco no sabor e na praticidade.
+              Camila Moura, nutricionista especializada em alimentação funcional, criou mais de 350 receitas de cafés da manhã saudáveis, deliciosos de verdade e que ficam prontos em até 15 minutos. Cada receita foi pensada para oferecer todos os nutrientes que seu corpo precisa logo no início do dia, com foco no sabor e na praticidade.
             </p>
           </div>
         </div>
@@ -114,7 +114,7 @@ export default function Home() {
           <ul className="space-y-6">
             {[
               'Cardápio criado por uma nutricionista',
-              'Mais de 200 opções saudáveis',
+              'Mais de 350 opções saudáveis',
               'Baixíssimas em calorias',
               'Sabor novo todos os dias sem enjoar',
               'Feitas em menos de 15 minutos',

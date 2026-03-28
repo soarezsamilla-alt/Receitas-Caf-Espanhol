@@ -4,7 +4,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { CheckCircle2 } from 'lucide-react';
 
 const valueItems = [
-  { name: '+200 Cafés da Manhã de Nutri', price: 'R$129,00' },
+  { name: '+350 Cafés da Manhã de Nutri', price: 'R$129,00' },
   { name: 'Bônus 1: 200 Sobremesas Zero Açúcar', price: 'R$29,00' },
   { name: 'Bônus 2: 60 Receitas de Marmitas FIT', price: 'R$15,00' },
   { name: 'Bônus 3: 60 Receitas de Sucos Detox', price: 'R$29,00' },
@@ -31,7 +31,7 @@ export function Offer() {
             </div>
 
             <h3 className="font-headline text-2xl font-extrabold text-white md:text-3xl">
-              200 CAFÉS DA MANHÃ<br />DE NUTRI (COM SABOR)®
+              350 CAFÉS DA MANHÃ<br />DE NUTRI (COM SABOR)®
             </h3>
 
             <ul className="mt-8 space-y-3 text-lg font-bold text-white">

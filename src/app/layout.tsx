@@ -3,7 +3,7 @@ import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Nutri Café - 200 Cafés da Manhã de Nutri',
+  title: 'Nutri Café - 350 Cafés da Manhã de Nutri',
   description: 'Receitas rápidas, baratas e gostosas para emagrecer sem sofrer.',
 };
 

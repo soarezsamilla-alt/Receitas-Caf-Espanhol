@@ -18,8 +18,8 @@ export function Hero() {
 
       <div className="relative z-10 mx-auto max-w-6xl">
         <h1 className="font-headline text-3xl font-extrabold uppercase leading-tight tracking-tight md:text-5xl lg:text-6xl">
-          +200 Cafés da Manhã de Nutri
-          <span className="block mt-2 text-primary">Rápidos, Baratos e Gostosos pra Emagrecer Sem Sofrer</span>
+          +350 CAFÉS DA MANHÃ DE NUTRI
+          <span className="block mt-2 text-primary">RÁPIDOS, BARATOS E GOSTOSOS PRA EMAGRECER SEM SOFRER</span>
         </h1>
         <p className="mx-auto mt-8 max-w-3xl text-lg text-[#FAE8CE] md:text-xl">
           Prontas em 15 minutos, com ingredientes que você já tem em casa.

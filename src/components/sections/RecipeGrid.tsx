@@ -49,7 +49,7 @@ export function RecipeGrid() {
 
         <div className="mt-16 text-center">
           <h3 className="font-headline text-3xl font-extrabold text-foreground md:text-4xl">
-            + 200 OUTRAS <span className="text-primary">OPÇÕES DA NUTRI!</span>
+            + 350 OUTRAS <span className="text-primary">OPÇÕES DA NUTRI!</span>
           </h3>
           <div className="mt-8">
             <a href="#price" className="inline-block rounded-full bg-primary px-10 py-5 text-xl font-bold text-white shadow-xl transition-all hover:bg-primary/90 hover:shadow-2xl">
