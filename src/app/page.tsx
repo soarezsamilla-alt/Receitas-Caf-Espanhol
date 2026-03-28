@@ -89,7 +89,7 @@ export default function Home() {
               'Falta de receitas rápidas para o café da manhã',
               'Falta de nutrientes necessários para o dia',
             ].map((problem, idx) => (
-              <li key={idx} className="flex items-start gap-4 text-xl font-medium leading-tight text-[#3D1F08]">
+              <li key={idx} className="flex items-start gap-4 text-base font-medium leading-tight text-[#3D1F08]">
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-xl font-bold text-white">
                   <X />
                 </span>
