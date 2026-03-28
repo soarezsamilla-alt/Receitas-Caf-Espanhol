@@ -53,7 +53,7 @@ export default function Home() {
       {/* Nutritionist Profile */}
       <section className="bg-background px-4 py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
-          <div className="relative h-[450px] overflow-hidden rounded-2xl shadow-2xl md:h-[600px]">
+          <div className="relative aspect-[1376/768] w-full overflow-hidden rounded-2xl shadow-2xl">
             <Image
               src={nutritionist.imageUrl}
               alt="Shopia Fonseca"
