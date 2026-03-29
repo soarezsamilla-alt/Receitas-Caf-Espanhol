@@ -157,18 +157,6 @@ export default function Home() {
 
       <Offer />
 
-      {/* Guarantee Section */}
-      <section className="bg-[#3D1F08] px-4 py-10">
-        <div className="mx-auto max-w-3xl rounded-3xl bg-primary p-12 text-center text-white shadow-2xl">
-          <h3 className="mb-6 font-headline text-2xl font-extrabold">
-            Devolvemos seu Dinheiro e<br />você Fica com o Produto!
-          </h3>
-          <p className="text-lg leading-relaxed">
-            <strong className="font-black">Essa é nossa garantia:</strong> teste por 30 dias e se não gostar, devolvemos seu dinheiro na hora e você ainda fica com o produto!
-          </p>
-        </div>
-      </section>
-
       {/* How to Receive Section */}
       <section className="bg-background px-4 py-10">
         <div className="mx-auto max-w-4xl text-center">
