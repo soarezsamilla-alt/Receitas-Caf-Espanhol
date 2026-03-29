@@ -160,7 +160,7 @@ export default function Home() {
       {/* Guarantee Section */}
       <section className="bg-[#3D1F08] px-4 py-10">
         <div className="mx-auto max-w-3xl rounded-3xl bg-primary p-12 text-center text-white shadow-2xl">
-          <h3 className="mb-6 font-headline text-3xl font-extrabold md:text-4xl">
+          <h3 className="mb-6 font-headline text-2xl font-extrabold">
             Devolvemos seu Dinheiro e<br />você Fica com o Produto!
           </h3>
           <p className="text-xl leading-relaxed">
