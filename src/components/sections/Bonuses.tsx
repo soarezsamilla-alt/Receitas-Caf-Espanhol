@@ -44,13 +44,13 @@ export function Bonuses() {
           RECEBA AINDA<br /><b className="font-extrabold uppercase tracking-tight">+ 5 BÔNUS EXCLUSIVOS:</b>
         </h2>
         
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
           {bonuses.map((bonus, idx) => {
             const img = PlaceHolderImages.find(p => p.id === bonus.imgId) || PlaceHolderImages[0];
             return (
-              <div key={idx} className="group relative flex flex-col overflow-hidden rounded-2xl bg-white shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+              <div key={idx} className="group relative flex flex-col overflow-hidden rounded-2xl bg-[#E8600A] shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
                 {/* Image Container with Badge */}
-                <div className="relative h-44 w-full overflow-hidden">
+                <div className="relative h-32 w-full overflow-hidden sm:h-40">
                   <Image
                     src={img.imageUrl}
                     alt={bonus.title}
@@ -59,27 +59,27 @@ export function Bonuses() {
                     data-ai-hint={img.imageHint}
                   />
                   {/* Floating Badge - Highlighted Focus */}
-                  <div className="absolute left-3 top-3 z-10">
-                    <span className="inline-flex items-center rounded-lg bg-primary px-3 py-1.5 text-[10px] font-black uppercase tracking-tighter text-white shadow-lg ring-2 ring-white/20 animate-in fade-in zoom-in duration-500">
-                      <span className="mr-1 h-1.5 w-1.5 rounded-full bg-white animate-pulse" />
+                  <div className="absolute left-2 top-2 z-10">
+                    <span className="inline-flex items-center rounded-lg bg-white px-2 py-1 text-[9px] font-black uppercase tracking-tighter text-[#E8600A] shadow-lg animate-in fade-in zoom-in duration-500">
+                      <span className="mr-1 h-1.5 w-1.5 rounded-full bg-[#E8600A] animate-pulse" />
                       {bonus.id}
                     </span>
                   </div>
                 </div>
 
-                <div className="flex flex-1 flex-col p-5">
-                  <h4 className="font-headline text-lg font-bold leading-tight text-[#3D1F08]">
+                <div className="flex flex-1 flex-col p-3 sm:p-4">
+                  <h4 className="font-headline text-[15px] sm:text-lg font-bold leading-tight text-white line-clamp-2">
                     {bonus.title}
-                    {bonus.subtitle && <span className="block text-xs font-normal text-muted-foreground mt-1">{bonus.subtitle}</span>}
+                    {bonus.subtitle && <span className="block text-[10px] font-normal text-white/80 mt-0.5">{bonus.subtitle}</span>}
                   </h4>
                   
-                  <div className="mt-auto pt-4 flex items-center justify-between">
+                  <div className="mt-auto pt-3 flex items-center justify-between">
                     <div className="flex flex-col">
-                      <del className="text-xs text-muted-foreground opacity-70">{bonus.oldPrice}</del>
-                      <span className="text-sm font-black text-[#2CAC43]">GRÁTIS!</span>
+                      <del className="text-[10px] text-white/60">{bonus.oldPrice}</del>
+                      <span className="text-xs sm:text-sm font-black text-[#0eee43]">GRÁTIS!</span>
                     </div>
-                    <div className="h-8 w-8 rounded-full bg-secondary/50 flex items-center justify-center">
-                      <span className="text-primary font-bold text-xs">🎁</span>
+                    <div className="h-6 w-6 rounded-full bg-white/20 flex items-center justify-center">
+                      <span className="text-white text-xs">🎁</span>
                     </div>
                   </div>
                 </div>
@@ -88,8 +88,8 @@ export function Bonuses() {
           })}
         </div>
 
-        <div className="mt-20 text-center">
-          <a href="#price" className="animate-pulse-cta inline-block rounded-full bg-primary px-12 py-6 text-2xl font-black uppercase text-white shadow-2xl transition-all hover:bg-primary/90 hover:scale-105">
+        <div className="mt-16 text-center">
+          <a href="#price" className="animate-pulse-cta inline-block rounded-full bg-primary px-10 py-5 text-xl font-black uppercase text-white shadow-2xl transition-all hover:bg-primary/90 hover:scale-105">
             QUERO AS RECEITAS!
           </a>
         </div>
