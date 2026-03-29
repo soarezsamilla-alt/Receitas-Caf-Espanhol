@@ -79,7 +79,7 @@ export function Bonuses() {
                   
                   <div className="mt-auto pt-4 flex items-center justify-between">
                     <div className="flex flex-col">
-                      <del className="text-xs text-white/60">{bonus.oldPrice}</del>
+                      <del className="text-sm font-bold text-white/80 decoration-white/40 decoration-2">{bonus.oldPrice}</del>
                       <span className="text-base font-black text-[#0eee43]">GRÁTIS!</span>
                     </div>
                     <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white/20 text-xl shadow-inner">
