@@ -24,12 +24,12 @@ export function RecipeGrid() {
           VEJA O QUE VOCÊ<br /><b className="font-extrabold uppercase">VAI APRENDER:</b>
         </h2>
         
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
           {recipes.map((recipe, idx) => {
             const img = PlaceHolderImages.find(p => p.id === recipe.imgId) || PlaceHolderImages[0];
             return (
-              <Card key={idx} className="overflow-hidden border-none shadow-lg transition-transform hover:-translate-y-2 hover:shadow-xl">
-                <div className="relative h-56 w-full">
+              <Card key={idx} className="overflow-hidden border-none shadow-md transition-transform hover:-translate-y-1 hover:shadow-lg">
+                <div className="relative h-40 w-full">
                   <Image
                     src={img.imageUrl}
                     alt={recipe.name}
@@ -38,9 +38,9 @@ export function RecipeGrid() {
                     data-ai-hint={img.imageHint}
                   />
                 </div>
-                <CardContent className="p-6 text-center">
-                  <h3 className="font-headline text-lg font-bold leading-snug">{recipe.name}</h3>
-                  <p className="mt-2 text-sm font-medium text-muted-foreground">{recipe.meta}</p>
+                <CardContent className="p-4 text-center">
+                  <h3 className="font-headline text-sm font-bold leading-snug line-clamp-2">{recipe.name}</h3>
+                  <p className="mt-1 text-[10px] font-medium text-muted-foreground uppercase">{recipe.meta}</p>
                 </CardContent>
               </Card>
             );

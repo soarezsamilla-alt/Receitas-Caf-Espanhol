@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
@@ -43,12 +44,12 @@ export function Bonuses() {
           RECEBA AINDA<br /><b className="font-extrabold uppercase tracking-tight">+ 5 BÔNUS EXCLUSIVOS:</b>
         </h2>
         
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {bonuses.map((bonus, idx) => {
             const img = PlaceHolderImages.find(p => p.id === bonus.imgId) || PlaceHolderImages[0];
             return (
-              <div key={idx} className="group overflow-hidden rounded-2xl bg-[#BF4D07] shadow-xl transition-transform hover:-translate-y-2">
-                <div className="relative h-56 w-full">
+              <div key={idx} className="group overflow-hidden rounded-2xl bg-[#BF4D07] shadow-lg transition-transform hover:-translate-y-1">
+                <div className="relative h-40 w-full">
                   <Image
                     src={img.imageUrl}
                     alt={bonus.title}
@@ -57,15 +58,15 @@ export function Bonuses() {
                     data-ai-hint={img.imageHint}
                   />
                 </div>
-                <div className="p-8 text-white">
-                  <span className="text-sm font-bold uppercase tracking-widest opacity-80">{bonus.id}:</span>
-                  <h4 className="mt-4 font-headline text-2xl font-bold leading-tight">
+                <div className="p-6 text-white">
+                  <span className="text-xs font-bold uppercase tracking-widest opacity-80">{bonus.id}:</span>
+                  <h4 className="mt-2 font-headline text-lg font-bold leading-tight">
                     {bonus.title}
-                    {bonus.subtitle && <span className="block text-lg font-normal opacity-80">{bonus.subtitle}</span>}
+                    {bonus.subtitle && <span className="block text-sm font-normal opacity-80">{bonus.subtitle}</span>}
                   </h4>
-                  <div className="mt-6 flex items-baseline gap-2">
-                    <del className="text-lg opacity-60">{bonus.oldPrice}</del>
-                    <span className="text-xl font-bold text-[#0eee43]">HOJE É GRÁTIS!</span>
+                  <div className="mt-4 flex items-baseline gap-2">
+                    <del className="text-sm opacity-60">{bonus.oldPrice}</del>
+                    <span className="text-base font-bold text-[#0eee43]">GRÁTIS!</span>
                   </div>
                 </div>
               </div>
