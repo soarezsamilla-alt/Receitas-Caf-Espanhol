@@ -6,7 +6,7 @@ import { FAQ } from '@/components/sections/FAQ';
 import { Footer } from '@/components/sections/Footer';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Check, X } from 'lucide-react';
+import { Check, X, ShieldCheck } from 'lucide-react';
 
 export default function Home() {
   const nutritionist = PlaceHolderImages.find(p => p.id === 'nutritionist') || PlaceHolderImages[0];
@@ -201,6 +201,29 @@ export default function Home() {
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      {/* 7-Day Guarantee Section */}
+      <section className="bg-white px-4 py-16">
+        <div className="mx-auto max-w-4xl rounded-3xl border-4 border-dashed border-primary/20 p-8 md:p-12">
+          <div className="flex flex-col items-center gap-8 md:flex-row">
+            <div className="relative flex h-32 w-32 shrink-0 items-center justify-center rounded-full bg-[#3D1F08] text-white shadow-xl md:h-40 md:w-40">
+               <div className="text-center">
+                 <span className="block text-5xl font-black leading-none">7</span>
+                 <span className="block text-sm font-bold uppercase tracking-widest">Dias</span>
+                 <span className="block text-[10px] uppercase">de Garantia</span>
+               </div>
+            </div>
+            <div className="text-center md:text-left">
+              <h3 className="font-headline text-2xl font-black text-[#3D1F08] uppercase leading-tight">
+                Sua Satisfação Garantida ou<br />Seu Dinheiro de Volta
+              </h3>
+              <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
+                O risco é todo meu! Você tem <strong className="text-primary">7 dias inteiros</strong> para acessar o conteúdo, testar as receitas e ver os resultados. Se você não amar as receitas ou achar que não é para você, basta um clique para receber 100% do seu dinheiro de volta. Sem perguntas e sem complicações.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
