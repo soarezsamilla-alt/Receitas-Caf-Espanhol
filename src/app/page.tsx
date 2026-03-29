@@ -177,7 +177,6 @@ export default function Home() {
           <ul className="grid gap-6 text-left md:grid-cols-2">
             {[
               'Recebe no E-mail e Whatsapp',
-              'Pode imprimir no papel',
               'Pode ver no celular',
               'Pode visualizar no computador',
               'Veja no tablet',
