@@ -24,7 +24,7 @@ export function Offer() {
                 src={mockup.imageUrl}
                 alt="Product Mockup"
                 fill
-                className="rounded-2xl object-cover shadow-2xl"
+                className="rounded-2xl object-contain shadow-2xl"
                 data-ai-hint={mockup.imageHint}
               />
             </div>

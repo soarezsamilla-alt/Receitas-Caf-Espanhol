@@ -169,7 +169,7 @@ export default function Home() {
               src={deviceMockup.imageUrl}
               alt="Mockup of devices"
               fill
-              className="object-cover"
+              className="object-contain"
               data-ai-hint={deviceMockup.imageHint}
             />
           </div>
