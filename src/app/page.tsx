@@ -206,7 +206,7 @@ export default function Home() {
               <h3 className="font-headline text-lg font-black text-[#3D1F08] uppercase leading-tight">
                 Sua Satisfação Garantida ou<br />Seu Dinheiro de Volta
               </h3>
-              <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
+              <p className="mt-4 text-base leading-relaxed text-muted-foreground">
                 O risco é todo meu! Você tem <strong className="text-primary">7 dias inteiros</strong> para acessar o conteúdo, testar as receitas e ver os resultados. Se você não amar as receitas ou achar que não é para você, basta um clique para receber 100% do seu dinheiro de volta. Sem perguntas e sem complicações.
               </p>
             </div>
