@@ -12,7 +12,9 @@ const valueItems = [
 ];
 
 export function Offer() {
+  // Mantemos a referência para meta-dados, mas usaremos a URL específica solicitada
   const mockup = PlaceHolderImages.find(p => p.id === 'ebook-mockup') || PlaceHolderImages[0];
+  const customImageUrl = 'https://image2url.com/r2/default/images/1774747163588-0537d5b9-3ac4-4282-9ae1-b2349d1997d4.blob';
   
   return (
     <section id="price" className="bg-secondary px-4 py-12">
@@ -21,11 +23,11 @@ export function Offer() {
           <div className="p-8 text-center md:p-12">
             <div className="relative mx-auto mb-10 h-64 w-64 md:h-80 md:w-80">
               <Image
-                src={mockup.imageUrl}
-                alt="Product Mockup"
+                src={customImageUrl}
+                alt="350 Cafés da Manhã de Nutri Mockup"
                 fill
                 className="rounded-2xl object-contain shadow-2xl"
-                data-ai-hint={mockup.imageHint}
+                data-ai-hint="ebook mockup"
               />
             </div>
 
