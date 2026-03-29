@@ -163,7 +163,7 @@ export default function Home() {
           <h3 className="mb-6 font-headline text-2xl font-extrabold">
             Devolvemos seu Dinheiro e<br />você Fica com o Produto!
           </h3>
-          <p className="text-xl leading-relaxed">
+          <p className="text-lg leading-relaxed">
             <strong className="font-black">Essa é nossa garantia:</strong> teste por 30 dias e se não gostar, devolvemos seu dinheiro na hora e você ainda fica com o produto!
           </p>
         </div>
