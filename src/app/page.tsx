@@ -203,7 +203,7 @@ export default function Home() {
                </div>
             </div>
             <div className="text-center md:text-left">
-              <h3 className="font-headline text-2xl font-black text-[#3D1F08] uppercase leading-tight">
+              <h3 className="font-headline text-lg font-black text-[#3D1F08] uppercase leading-tight">
                 Sua Satisfação Garantida ou<br />Seu Dinheiro de Volta
               </h3>
               <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
