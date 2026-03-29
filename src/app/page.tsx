@@ -164,7 +164,7 @@ export default function Home() {
             COMO IREI<br /><b className="font-extrabold uppercase">RECEBER AS RECEITAS?</b>
           </h2>
           
-          <div className="relative mx-auto my-12 h-64 w-full max-w-2xl overflow-hidden rounded-2xl shadow-2xl md:h-[400px]">
+          <div className="relative mx-auto my-12 h-64 w-full max-w-2xl">
             <Image
               src={howToReceiveImageUrl}
               alt="Mockup of devices"
