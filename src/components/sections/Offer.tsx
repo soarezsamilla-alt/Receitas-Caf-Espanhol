@@ -26,7 +26,7 @@ export function Offer() {
                 src={customImageUrl}
                 alt="350 Cafés da Manhã de Nutri Mockup"
                 fill
-                className="rounded-2xl object-contain shadow-2xl"
+                className="object-contain"
                 data-ai-hint="ebook mockup"
               />
             </div>
