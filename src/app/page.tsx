@@ -10,7 +10,7 @@ import { Check, X, ShieldCheck } from 'lucide-react';
 
 export default function Home() {
   const nutritionist = PlaceHolderImages.find(p => p.id === 'nutritionist') || PlaceHolderImages[0];
-  const deviceMockup = PlaceHolderImages.find(p => p.id === 'ebook-mockup') || PlaceHolderImages[0];
+  const howToReceiveImageUrl = 'https://image2url.com/r2/default/images/1774747649347-c0afd8d7-12d6-4509-a72a-d94cc2f99cd7.blob';
 
   return (
     <main className="min-h-screen">
@@ -166,11 +166,11 @@ export default function Home() {
           
           <div className="relative mx-auto my-12 h-64 w-full max-w-2xl overflow-hidden rounded-2xl shadow-2xl md:h-[400px]">
             <Image
-              src={deviceMockup.imageUrl}
+              src={howToReceiveImageUrl}
               alt="Mockup of devices"
               fill
               className="object-contain"
-              data-ai-hint={deviceMockup.imageHint}
+              data-ai-hint="ebook delivery"
             />
           </div>
 
