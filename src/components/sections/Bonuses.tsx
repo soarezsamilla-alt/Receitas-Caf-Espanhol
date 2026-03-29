@@ -44,13 +44,13 @@ export function Bonuses() {
           RECEBA AINDA<br /><b className="font-extrabold uppercase tracking-tight">+ 5 BÔNUS EXCLUSIVOS:</b>
         </h2>
         
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
           {bonuses.map((bonus, idx) => {
             const img = PlaceHolderImages.find(p => p.id === bonus.imgId) || PlaceHolderImages[0];
             return (
               <div key={idx} className="group relative flex flex-col overflow-hidden rounded-2xl bg-[#E8600A] shadow-xl transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
-                {/* Image Container with Badge */}
-                <div className="relative h-32 w-full overflow-hidden sm:h-40">
+                {/* Image Container */}
+                <div className="relative h-48 w-full overflow-hidden sm:h-40">
                   <Image
                     src={img.imageUrl}
                     alt={bonus.title}
@@ -58,28 +58,32 @@ export function Bonuses() {
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                     data-ai-hint={img.imageHint}
                   />
-                  {/* Floating Badge - Highlighted Focus */}
-                  <div className="absolute left-2 top-2 z-10">
-                    <span className="inline-flex items-center rounded-lg bg-white px-2 py-1 text-[9px] font-black uppercase tracking-tighter text-[#E8600A] shadow-lg animate-in fade-in zoom-in duration-500">
-                      <span className="mr-1 h-1.5 w-1.5 rounded-full bg-[#E8600A] animate-pulse" />
-                      {bonus.id}
-                    </span>
+                  
+                  {/* Destaque BÔNUS - Badge Flutuante com Efeito */}
+                  <div className="absolute left-3 top-3 z-10">
+                    <div className="relative">
+                      <div className="absolute -inset-1 animate-pulse rounded-lg bg-white/50 blur"></div>
+                      <span className="relative inline-flex items-center rounded-lg bg-white px-3 py-1.5 text-[10px] font-black uppercase tracking-widest text-[#E8600A] shadow-xl">
+                        <span className="mr-2 h-2 w-2 rounded-full bg-[#E8600A] animate-ping" />
+                        {bonus.id}
+                      </span>
+                    </div>
                   </div>
                 </div>
 
-                <div className="flex flex-1 flex-col p-3 sm:p-4">
-                  <h4 className="font-headline text-[15px] sm:text-lg font-bold leading-tight text-white line-clamp-2">
+                <div className="flex flex-1 flex-col p-5 sm:p-4">
+                  <h4 className="font-headline text-lg sm:text-base font-bold leading-tight text-white">
                     {bonus.title}
-                    {bonus.subtitle && <span className="block text-[10px] font-normal text-white/80 mt-0.5">{bonus.subtitle}</span>}
+                    {bonus.subtitle && <span className="block text-[11px] font-normal text-white/80 mt-1">{bonus.subtitle}</span>}
                   </h4>
                   
-                  <div className="mt-auto pt-3 flex items-center justify-between">
+                  <div className="mt-auto pt-4 flex items-center justify-between">
                     <div className="flex flex-col">
-                      <del className="text-[10px] text-white/60">{bonus.oldPrice}</del>
-                      <span className="text-xs sm:text-sm font-black text-[#0eee43]">GRÁTIS!</span>
+                      <del className="text-xs text-white/60">{bonus.oldPrice}</del>
+                      <span className="text-base font-black text-[#0eee43]">GRÁTIS!</span>
                     </div>
-                    <div className="h-6 w-6 rounded-full bg-white/20 flex items-center justify-center">
-                      <span className="text-white text-xs">🎁</span>
+                    <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white/20 text-xl shadow-inner">
+                      🎁
                     </div>
                   </div>
                 </div>
