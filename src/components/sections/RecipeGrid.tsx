@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -52,7 +51,7 @@ export function RecipeGrid() {
             + 350 OUTRAS <span className="text-primary">OPÇÕES DA NUTRI!</span>
           </h3>
           <div className="mt-8">
-            <a href="#price" className="inline-block rounded-full bg-primary px-10 py-5 text-xl font-bold text-white shadow-xl transition-all hover:bg-primary/90 hover:shadow-2xl">
+            <a href="#price" className="animate-pulse-cta active-scale inline-block rounded-full bg-primary px-10 py-5 text-xl font-bold text-white shadow-xl transition-all hover:bg-primary/90 hover:shadow-2xl">
               QUERO AS RECEITAS!
             </a>
           </div>

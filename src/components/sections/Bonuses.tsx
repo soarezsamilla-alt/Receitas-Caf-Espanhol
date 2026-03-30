@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
@@ -93,7 +92,7 @@ export function Bonuses() {
         </div>
 
         <div className="mt-16 text-center">
-          <a href="#price" className="animate-pulse-cta inline-block rounded-full bg-primary px-10 py-5 text-xl font-black uppercase text-white shadow-2xl transition-all hover:bg-primary/90 hover:scale-105">
+          <a href="#price" className="animate-pulse-cta active-scale inline-block rounded-full bg-primary px-10 py-5 text-xl font-black uppercase text-white shadow-2xl transition-all hover:bg-primary/90 hover:scale-105">
             QUERO AS RECEITAS!
           </a>
         </div>

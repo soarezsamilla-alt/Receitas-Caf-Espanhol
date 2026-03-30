@@ -12,8 +12,6 @@ const valueItems = [
 ];
 
 export function Offer() {
-  // Mantemos a referência para meta-dados, mas usaremos a URL específica solicitada
-  const mockup = PlaceHolderImages.find(p => p.id === 'ebook-mockup') || PlaceHolderImages[0];
   const customImageUrl = 'https://image2url.com/r2/default/images/1774747163588-0537d5b9-3ac4-4282-9ae1-b2349d1997d4.blob';
   
   return (
@@ -80,7 +78,7 @@ export function Offer() {
                 href="https://pay.kiwify.com.br/SEU-LINK-AQUI" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="animate-pulse-cta inline-block w-full rounded-full bg-[#2CAC43] px-12 py-6 text-2xl font-black uppercase text-white shadow-2xl transition-all hover:bg-[#1e8a32] hover:scale-105"
+                className="animate-pulse-cta active-scale inline-block w-full rounded-full bg-[#2CAC43] px-12 py-6 text-2xl font-black uppercase text-white shadow-2xl transition-all hover:bg-[#1e8a32] hover:scale-105"
               >
                 COMPRAR AGORA!
               </a>

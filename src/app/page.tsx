@@ -6,7 +6,7 @@ import { FAQ } from '@/components/sections/FAQ';
 import { Footer } from '@/components/sections/Footer';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Check, X, ShieldCheck } from 'lucide-react';
+import { Check, X } from 'lucide-react';
 
 export default function Home() {
   const nutritionist = PlaceHolderImages.find(p => p.id === 'nutritionist') || PlaceHolderImages[0];
@@ -41,7 +41,7 @@ export default function Home() {
             ))}
           </ul>
           <div className="mt-16 text-center">
-            <a href="#price" className="inline-block rounded-full bg-primary px-10 py-5 text-xl font-bold text-white shadow-xl transition-all hover:bg-primary/90">
+            <a href="#price" className="animate-pulse-cta active-scale inline-block rounded-full bg-primary px-10 py-5 text-xl font-bold text-white shadow-xl transition-all hover:bg-primary/90">
               QUERO AS RECEITAS!
             </a>
           </div>
@@ -53,7 +53,7 @@ export default function Home() {
       {/* Nutritionist Profile */}
       <section className="bg-background px-4 py-10">
         <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
-          <div className="relative aspect-[1376/768] w-full overflow-hidden rounded-2xl shadow-2xl">
+          <div className="relative aspect-[1376/768] w-full overflow-hidden">
             <Image
               src={nutritionist.imageUrl}
               alt="Shopia Fonseca"
@@ -125,7 +125,7 @@ export default function Home() {
             ))}
           </ul>
           <div className="mt-16 text-center">
-            <a href="#price" className="inline-block rounded-full bg-primary px-10 py-5 text-xl font-bold text-white shadow-xl transition-all hover:bg-primary/90">
+            <a href="#price" className="animate-pulse-cta active-scale inline-block rounded-full bg-primary px-10 py-5 text-xl font-bold text-white shadow-xl transition-all hover:bg-primary/90">
               QUERO AS RECEITAS!
             </a>
           </div>

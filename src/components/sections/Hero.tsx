@@ -43,7 +43,7 @@ export function Hero() {
         </div>
 
         <div className="mt-12">
-          <Button asChild size="lg" className="h-16 rounded-full bg-primary px-12 text-xl font-bold uppercase tracking-wide transition-transform hover:scale-105">
+          <Button asChild size="lg" className="animate-pulse-cta active-scale h-16 rounded-full bg-primary px-12 text-xl font-bold uppercase tracking-wide transition-transform hover:scale-105">
             <a href="#price">Quero as Receitas!</a>
           </Button>
         </div>
