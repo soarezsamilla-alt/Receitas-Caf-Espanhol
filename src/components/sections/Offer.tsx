@@ -15,8 +15,9 @@ export function Offer() {
   
   return (
     <section id="price" className="bg-secondary/50 px-4 py-16">
-      <div className="mx-auto max-w-lg">
-        <div className="relative overflow-hidden rounded-[2.5rem] bg-white shadow-[0_30px_60px_-15px_rgba(0,0,0,0.1)] border border-primary/10">
+      <div className="mx-auto max-w-md">
+        {/* Card Principal com Efeito de Brilho */}
+        <div className="relative overflow-hidden rounded-[2.5rem] bg-[#FFF9F2] border-2 border-primary/40 shadow-[0_0_25px_rgba(232,96,10,0.25)] ring-1 ring-primary/20 transition-all duration-500 hover:shadow-[0_0_40px_rgba(232,96,10,0.4)]">
           
           {/* Top Badge */}
           <div className="absolute top-6 right-[-35px] rotate-45 bg-accent px-12 py-1 text-[10px] font-black uppercase tracking-widest text-white shadow-lg z-20">
@@ -37,7 +38,7 @@ export function Offer() {
               </h3>
             </header>
 
-            {/* Product Image */}
+            {/* Product Image - Sem o container de card branco atrás */}
             <div className="relative mx-auto mb-8 aspect-square w-full max-w-[280px]">
               <Image
                 src={customImageUrl}
@@ -48,8 +49,8 @@ export function Offer() {
               />
             </div>
 
-            {/* What's Included */}
-            <div className="mb-8 space-y-3 rounded-2xl bg-secondary/30 p-6 text-left">
+            {/* What's Included - Design mais clean com fundo ligeiramente mais escuro que o card */}
+            <div className="mb-8 space-y-3 rounded-2xl bg-primary/5 p-6 text-left border border-primary/10">
               <p className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-4">Incluso no pacote:</p>
               {valueItems.map((item, idx) => (
                 <div key={idx} className="flex items-center justify-between text-sm font-medium">
@@ -78,7 +79,7 @@ export function Offer() {
                 href="https://pay.kiwify.com.br/SEU-LINK-AQUI" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="animate-pulse-cta active-scale flex w-full items-center justify-center rounded-2xl bg-[#2CAC43] py-5 text-xl font-black uppercase text-white shadow-[0_10px_20px_-5px_rgba(44,172,67,0.4)] transition-all hover:bg-[#1e8a32] hover:scale-[1.02]"
+                className="animate-pulse-cta active-scale flex w-full items-center justify-center rounded-2xl bg-[#2CAC43] py-5 text-xl font-black uppercase text-white shadow-[0_10px_20px_-5px_rgba(44,172,67,0.4)] transition-all hover:bg-[#1e8a32]"
               >
                 Sim! Quero Emagrecer Agora
               </a>
