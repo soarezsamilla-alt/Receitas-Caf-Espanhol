@@ -3,32 +3,32 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const bonuses = [
   { 
-    title: '200 SOBREMESAS ZERO AÇÚCAR', 
+    title: '250 SOBREMESAS ZERO AÇÚCAR', 
     oldPrice: 'R$29,00', 
     id: 'BÔNUS 1',
     imgId: 'bonus-desserts'
   },
   { 
-    title: '60 RECEITAS DE MARMITAS FIT', 
+    title: '80 RECEITAS DE MARMITAS FIT', 
     oldPrice: 'R$15,00', 
     id: 'BÔNUS 2',
     imgId: 'bonus-lunch'
   },
   { 
-    title: '60 RECEITAS DE SUCOS DETOX', 
+    title: '80 RECEITAS DE SUCOS DETOX', 
     oldPrice: 'R$29,00', 
     id: 'BÔNUS 3',
     imgId: 'bonus-detox'
   },
   { 
-    title: '30 RECEITAS ANTI-INFLAMATÓRIAS', 
+    title: '50 RECEITAS ANTI-INFLAMATÓRIAS', 
     subtitle: '(Almoço e Jantar)',
     oldPrice: 'R$19,00', 
     id: 'BÔNUS 4',
     imgId: 'bonus-anti-inflammatory'
   },
   { 
-    title: '20 RECEITAS DE PÃES SEM GLÚTEN', 
+    title: '30 RECEITAS DE PÃES SEM GLÚTEN', 
     oldPrice: 'R$19,00', 
     id: 'BÔNUS 5',
     imgId: 'bonus-bread'
