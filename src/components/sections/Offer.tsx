@@ -38,7 +38,7 @@ export function Offer() {
               </h3>
             </header>
 
-            {/* Product Image - Sem o container de card branco atrás */}
+            {/* Product Image */}
             <div className="relative mx-auto mb-8 aspect-square w-full max-w-[280px]">
               <Image
                 src={customImageUrl}
@@ -49,7 +49,7 @@ export function Offer() {
               />
             </div>
 
-            {/* What's Included - Design mais clean com fundo ligeiramente mais escuro que o card */}
+            {/* What's Included */}
             <div className="mb-8 space-y-3 rounded-2xl bg-primary/5 p-6 text-left border border-primary/10">
               <p className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-4">Incluso no pacote:</p>
               {valueItems.map((item, idx) => (
@@ -81,7 +81,7 @@ export function Offer() {
                 rel="noopener noreferrer"
                 className="animate-pulse-cta active-scale flex w-full items-center justify-center rounded-2xl bg-[#2CAC43] py-5 text-xl font-black uppercase text-white shadow-[0_10px_20px_-5px_rgba(44,172,67,0.4)] transition-all hover:bg-[#1e8a32]"
               >
-                Sim! Quero Emagrecer Agora
+                COMPRAR AGORA!
               </a>
               <div className="flex items-center justify-center gap-4 text-[10px] font-bold uppercase text-muted-foreground/60">
                 <span className="flex items-center gap-1">🔒 Compra Segura</span>
