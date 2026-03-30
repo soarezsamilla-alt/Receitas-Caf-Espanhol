@@ -2,27 +2,63 @@
   "placeholderImages": [
     {
       "id": "hero-breakfast-1",
-      "description": "Healthy avocado toast with eggs",
-      "imageUrl": "https://picsum.photos/seed/10/600/400",
+      "description": "Café da manhã saudável 1",
+      "imageUrl": "https://image2url.com/r2/default/images/1774900796076-3c837421-fd1a-471a-be41-72a50cb927a6.jpg",
       "imageHint": "healthy breakfast"
     },
     {
       "id": "hero-breakfast-2",
-      "description": "Fruit bowl with granola and yogurt",
-      "imageUrl": "https://picsum.photos/seed/11/600/400",
+      "description": "Café da manhã saudável 2",
+      "imageUrl": "https://image2url.com/r2/default/images/1774900853589-6b33cfe7-626d-4f2d-819c-afd96ccb321f.jpg",
       "imageHint": "fruit bowl"
     },
     {
       "id": "hero-breakfast-3",
-      "description": "Protein pancakes with blueberries",
-      "imageUrl": "https://picsum.photos/seed/12/600/400",
+      "description": "Café da manhã saudável 3",
+      "imageUrl": "https://image2url.com/r2/default/images/1774900870278-34880434-97ce-429b-ba8e-8b288187979f.jpg",
       "imageHint": "protein pancakes"
     },
     {
       "id": "hero-breakfast-4",
-      "description": "Smoothie bowl with seeds",
-      "imageUrl": "https://picsum.photos/seed/13/600/400",
+      "description": "Café da manhã saudável 4",
+      "imageUrl": "https://image2url.com/r2/default/images/1774900884679-49bb61f9-eace-45da-ad96-064ed176b331.jpg",
       "imageHint": "smoothie bowl"
+    },
+    {
+      "id": "hero-breakfast-5",
+      "description": "Café da manhã saudável 5",
+      "imageUrl": "https://image2url.com/r2/default/images/1774900900598-64f94bd8-b798-46b4-a69a-7cedef9cd517.jpg",
+      "imageHint": "healthy breakfast"
+    },
+    {
+      "id": "hero-breakfast-6",
+      "description": "Café da manhã saudável 6",
+      "imageUrl": "https://image2url.com/r2/default/images/1774900918575-b6901500-b285-4831-895a-e80a0825a28f.jpg",
+      "imageHint": "egg skillet"
+    },
+    {
+      "id": "hero-breakfast-7",
+      "description": "Café da manhã saudável 7",
+      "imageUrl": "https://image2url.com/r2/default/images/1774900932143-5b2ee7ea-d3c2-4b69-8273-10076e99e433.jpg",
+      "imageHint": "healthy pizza"
+    },
+    {
+      "id": "hero-breakfast-8",
+      "description": "Café da manhã saudável 8",
+      "imageUrl": "https://image2url.com/r2/default/images/1774900947849-1913ec4e-b7f2-4d4c-a6ed-34740920eb6b.jpg",
+      "imageHint": "banana pancakes"
+    },
+    {
+      "id": "hero-breakfast-9",
+      "description": "Café da manhã saudável 9",
+      "imageUrl": "https://image2url.com/r2/default/images/1774900968118-0d3cbf19-a48a-4f48-b849-926ab71f75c6.jpg",
+      "imageHint": "omelette cheese"
+    },
+    {
+      "id": "hero-breakfast-10",
+      "description": "Café da manhã saudável 10",
+      "imageUrl": "https://image2url.com/r2/default/images/1774900981947-e9d76845-4635-44d8-9b8d-813573f2a3ea.jpg",
+      "imageHint": "fruit salad"
     },
     {
       "id": "recipe-frigideira",
