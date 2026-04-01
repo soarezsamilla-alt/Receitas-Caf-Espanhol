@@ -1,5 +1,9 @@
+
+'use client';
+
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { CheckCircle2, Star } from 'lucide-react';
+import { CheckCircle2, Star, Clock } from 'lucide-react';
 
 const valueItems = [
   { name: '+350 Cafés da Manhã de Nutri', price: '$97.00' },
@@ -11,17 +15,59 @@ const valueItems = [
 ];
 
 export function Offer() {
+  const [timeLeft, setTimeLeft] = useState({ h: 23, m: 59, s: 59 });
   const customImageUrl = 'https://image2url.com/r2/default/images/1774747163588-0537d5b9-3ac4-4282-9ae1-b2349d1997d4.blob';
-  
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeLeft(prev => {
+        let { h, m, s } = prev;
+        if (s > 0) s--;
+        else {
+          s = 59;
+          if (m > 0) m--;
+          else {
+            m = 59;
+            if (h > 0) h--;
+            else {
+              h = 23; m = 59; s = 59;
+            }
+          }
+        }
+        return { h, m, s };
+      });
+    }, 1000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const f = (n: number) => n.toString().padStart(2, '0');
+
   return (
     <section id="price" className="bg-secondary/50 px-4 py-16">
-      <div className="mx-auto max-w-md">
-        {/* Card Principal com Efeito de Brilho */}
-        <div className="relative overflow-hidden rounded-[2.5rem] bg-[#FFF9F2] border-2 border-primary/40 shadow-[0_0_25px_rgba(232,96,10,0.25)] ring-1 ring-primary/20 transition-all duration-500 hover:shadow-[0_0_40px_rgba(232,96,10,0.4)]">
+      <div className="mx-auto max-w-lg">
+        <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-black/10 shadow-2xl">
           
-          {/* Top Badge */}
-          <div className="absolute top-6 right-[-35px] rotate-45 bg-accent px-12 py-1 text-[10px] font-black uppercase tracking-widest text-white shadow-lg z-20">
-            Oferta Única
+          {/* Header Bar - Timer (Based on Reference Image) */}
+          <div className="flex h-16 w-full items-center justify-center gap-4 bg-[#1e1b26] px-4">
+            <div className="flex items-center gap-2">
+              <Clock className="h-5 w-5 fill-red-600 text-red-600" />
+              <span className="text-[10px] font-black uppercase tracking-tighter text-red-600 sm:text-xs">
+                A OFERTA EXPIRA EM
+              </span>
+            </div>
+            <div className="flex items-center gap-1.5 sm:gap-2">
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-base font-black text-[#1e1b26]">
+                {f(timeLeft.h)}
+              </div>
+              <span className="font-bold text-white">:</span>
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-base font-black text-[#1e1b26]">
+                {f(timeLeft.m)}
+              </div>
+              <span className="font-bold text-white">:</span>
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-base font-black text-[#1e1b26]">
+                {f(timeLeft.s)}
+              </div>
+            </div>
           </div>
 
           <div className="p-8 text-center md:p-10">
@@ -39,7 +85,7 @@ export function Offer() {
             </header>
 
             {/* Product Image */}
-            <div className="relative mx-auto mb-8 aspect-square w-full max-w-[280px]">
+            <div className="relative mx-auto mb-8 aspect-square w-full max-w-[240px]">
               <Image
                 src={customImageUrl}
                 alt="350 Cafés da Manhã de Nutri Mockup"
@@ -63,13 +109,21 @@ export function Offer() {
               ))}
             </div>
 
-            {/* Pricing Section */}
+            {/* Pricing Section (Based on Reference Image) */}
             <div className="mb-8">
-              <p className="text-sm font-bold text-muted-foreground line-through">De $ 197,00 por apenas:</p>
-              <div className="mt-1 flex items-center justify-center gap-1">
-                <span className="text-7xl font-black text-primary tracking-tighter">$ 7.90</span>
+              <p className="text-base font-bold text-[#8a8a8a] line-through decoration-red-500/50 decoration-2">
+                De $ 197,00
+              </p>
+              <div className="mt-2 flex items-baseline justify-center gap-1">
+                <span className="text-3xl font-bold text-[#2a68f5]">$</span>
+                <span className="text-8xl font-black tracking-tighter text-[#2a68f5]">
+                  7
+                </span>
+                <span className="text-3xl font-bold text-[#2a68f5]">,90</span>
               </div>
-              <p className="mt-1 text-xs font-medium text-muted-foreground">Pagamento único • Acesso vitalício</p>
+              <p className="mt-2 text-xs font-black uppercase tracking-widest text-[#8a8a8a]">
+                PAGAMENTO ÚNICO
+              </p>
             </div>
 
             {/* CTA Button */}
