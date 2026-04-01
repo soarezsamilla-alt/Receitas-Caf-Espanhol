@@ -135,19 +135,19 @@ export default function Home() {
 
       {/* Testimonials */}
       <section className="bg-secondary px-4 py-10">
-        <div className="mx-auto max-w-6xl">
+        <div className="mx-auto max-w-5xl">
           <h2 className="mb-12 text-center font-headline text-2xl font-normal text-[#3D1F08]">
             VEJA O QUE DIZ<br /><b className="font-extrabold uppercase">QUEM ADQUIRIU:</b>
           </h2>
-          <div className="flex gap-0 overflow-x-auto pb-8 scrollbar-hide">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             {PlaceHolderImages.filter(p => p.id.startsWith('testimonial-')).map((test, idx) => (
-              <div key={idx} className="w-[300px] shrink-0 overflow-hidden md:w-[350px]">
+              <div key={idx} className="overflow-hidden rounded-3xl shadow-xl transition-transform hover:scale-[1.02]">
                 <Image
                   src={test.imageUrl}
                   alt={test.description}
                   width={400}
-                  height={500}
-                  className="h-full w-full object-cover"
+                  height={600}
+                  className="h-auto w-full object-contain"
                   data-ai-hint={test.imageHint}
                 />
               </div>
