@@ -139,9 +139,9 @@ export default function Home() {
           <h2 className="mb-12 text-center font-headline text-2xl font-normal text-[#3D1F08]">
             VEJA O QUE DIZ<br /><b className="font-extrabold uppercase">QUEM ADQUIRIU:</b>
           </h2>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+          <div className="grid grid-cols-3 gap-2 md:gap-8">
             {PlaceHolderImages.filter(p => p.id.startsWith('testimonial-')).map((test, idx) => (
-              <div key={idx} className="overflow-hidden rounded-3xl shadow-xl transition-transform hover:scale-[1.02]">
+              <div key={idx} className="overflow-hidden rounded-xl md:rounded-3xl shadow-lg md:shadow-xl transition-transform hover:scale-[1.02]">
                 <Image
                   src={test.imageUrl}
                   alt={test.description}
