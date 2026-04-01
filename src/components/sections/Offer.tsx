@@ -45,7 +45,8 @@ export function Offer() {
   return (
     <section id="price" className="bg-secondary/50 px-4 py-10">
       <div className="mx-auto max-w-lg">
-        <div className="relative overflow-hidden rounded-[2rem] bg-white border border-black/10 shadow-2xl">
+        {/* Main Card with Brilliant Border and Glow Effect */}
+        <div className="relative overflow-hidden rounded-[2rem] bg-white border-2 border-primary shadow-[0_0_20px_rgba(232,96,10,0.4)] transition-shadow duration-300">
           
           {/* Header Bar - Timer */}
           <div className="flex h-14 w-full items-center justify-center gap-4 bg-[#1e1b26] px-4">
