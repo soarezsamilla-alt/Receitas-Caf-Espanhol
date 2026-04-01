@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -139,7 +138,7 @@ export function Offer() {
             {/* CTA Button */}
             <div className="space-y-3">
               <a 
-                href="https://pay.kiwify.com.br/SEU-LINK-AQUI" 
+                href="https://pay.hotmart.com/A105168071T?checkoutMode=10" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="animate-pulse-cta active-scale flex w-full items-center justify-center rounded-xl bg-[#2CAC43] py-4 text-lg font-black uppercase text-white shadow-lg transition-all hover:bg-[#1e8a32]"
