@@ -65,12 +65,11 @@ export function Offer() {
 
             {/* Pricing Section */}
             <div className="mb-8">
-              <p className="text-sm font-bold text-muted-foreground line-through">De R$ 240,00 por apenas:</p>
+              <p className="text-sm font-bold text-muted-foreground line-through">De $ 197,00 por apenas:</p>
               <div className="mt-1 flex items-center justify-center gap-1">
-                <span className="text-2xl font-bold text-[#3D1F08]">6x</span>
-                <span className="text-4xl font-black text-primary">R$ 5,69</span>
+                <span className="text-4xl font-black text-primary">R$ 7,90</span>
               </div>
-              <p className="mt-1 text-sm font-medium text-muted-foreground">ou R$ 29,90 à vista</p>
+              <p className="mt-1 text-xs font-medium text-muted-foreground">Pagamento único • Acesso vitalício</p>
             </div>
 
             {/* CTA Button */}
