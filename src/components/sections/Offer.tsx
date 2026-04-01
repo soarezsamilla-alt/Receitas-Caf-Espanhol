@@ -109,17 +109,17 @@ export function Offer() {
               ))}
             </div>
 
-            {/* Pricing Section (Based on Reference Image) */}
+            {/* Pricing Section (Restored to Primary Orange Style) */}
             <div className="mb-8">
               <p className="text-base font-bold text-[#8a8a8a] line-through decoration-red-500/50 decoration-2">
                 De $ 197,00
               </p>
               <div className="mt-2 flex items-baseline justify-center gap-1">
-                <span className="text-3xl font-bold text-[#2a68f5]">$</span>
-                <span className="text-8xl font-black tracking-tighter text-[#2a68f5]">
+                <span className="text-3xl font-bold text-primary">$</span>
+                <span className="text-8xl font-black tracking-tighter text-primary">
                   7
                 </span>
-                <span className="text-3xl font-bold text-[#2a68f5]">,90</span>
+                <span className="text-3xl font-bold text-primary">,90</span>
               </div>
               <p className="mt-2 text-xs font-black uppercase tracking-widest text-[#8a8a8a]">
                 PAGAMENTO ÚNICO
