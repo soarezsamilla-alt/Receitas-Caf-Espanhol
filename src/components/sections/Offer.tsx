@@ -47,7 +47,7 @@ export function Offer() {
       <div className="mx-auto max-w-lg">
         <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-black/10 shadow-2xl">
           
-          {/* Header Bar - Timer (Based on Reference Image) */}
+          {/* Header Bar - Timer */}
           <div className="flex h-16 w-full items-center justify-center gap-4 bg-[#1e1b26] px-4">
             <div className="flex items-center gap-2">
               <Clock className="h-5 w-5 fill-red-600 text-red-600" />
@@ -109,9 +109,9 @@ export function Offer() {
               ))}
             </div>
 
-            {/* Pricing Section (Restored to Primary Orange Style) */}
+            {/* Pricing Section */}
             <div className="mb-8">
-              <p className="text-base font-bold text-[#8a8a8a] line-through decoration-red-500/50 decoration-2">
+              <p className="text-xl font-black text-red-600/60 line-through decoration-red-600/40 decoration-2">
                 De $ 197,00
               </p>
               <div className="mt-2 flex items-baseline justify-center gap-1">
@@ -121,9 +121,11 @@ export function Offer() {
                 </span>
                 <span className="text-5xl font-bold text-primary">,90</span>
               </div>
-              <p className="mt-2 text-xs font-black uppercase tracking-widest text-[#8a8a8a]">
-                PAGAMENTO ÚNICO
-              </p>
+              <div className="mt-4 inline-block rounded-full bg-primary/10 px-6 py-2">
+                <p className="text-base font-black uppercase tracking-widest text-primary">
+                  PAGAMENTO ÚNICO
+                </p>
+              </div>
             </div>
 
             {/* CTA Button */}
@@ -136,6 +138,11 @@ export function Offer() {
               >
                 COMPRAR AGORA!
               </a>
+              
+              <p className="animate-pulse text-sm font-black text-red-600">
+                Você NÃO vai encontrar esse preço depois.
+              </p>
+
               <div className="flex items-center justify-center gap-4 text-[10px] font-bold uppercase text-muted-foreground/60">
                 <span className="flex items-center gap-1">🔒 Compra Segura</span>
                 <span className="flex items-center gap-1">✅ Acesso Imediato</span>
