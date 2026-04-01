@@ -5,6 +5,7 @@ import { Bonuses } from '@/components/sections/Bonuses';
 import { Offer } from '@/components/sections/Offer';
 import { FAQ } from '@/components/sections/FAQ';
 import { Footer } from '@/components/sections/Footer';
+import { SalesPopup } from '@/components/sections/SalesPopup';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Check, X } from 'lucide-react';
@@ -218,6 +219,9 @@ export default function Home() {
       <FAQ />
 
       <Footer />
+      
+      {/* Sales Notification Popup */}
+      <SalesPopup />
     </main>
   );
 }
