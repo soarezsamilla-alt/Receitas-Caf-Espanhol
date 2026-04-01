@@ -164,21 +164,21 @@
     },
     {
       "id": "testimonial-1",
-      "description": "Happy woman with healthy meal",
-      "imageUrl": "https://picsum.photos/seed/41/400/500",
-      "imageHint": "happy woman"
+      "description": "Depoimento Satisfeito 1",
+      "imageUrl": "https://image2url.com/r2/default/images/1775011619811-5389071c-5d38-4859-a514-7e9b4fb5277f.png",
+      "imageHint": "testimonial"
     },
     {
       "id": "testimonial-2",
-      "description": "Transformation success photo",
-      "imageUrl": "https://picsum.photos/seed/42/400/500",
-      "imageHint": "fitness woman"
+      "description": "Depoimento Satisfeito 2",
+      "imageUrl": "https://image2url.com/r2/default/images/1775011648228-898baa53-3ac5-4595-8708-b5bfc636f748.png",
+      "imageHint": "testimonial"
     },
     {
       "id": "testimonial-3",
-      "description": "Happy couple eating breakfast",
-      "imageUrl": "https://picsum.photos/seed/43/400/500",
-      "imageHint": "happy couple"
+      "description": "Depoimento Satisfeito 3",
+      "imageUrl": "https://image2url.com/r2/default/images/1775011663325-09f08c27-5df2-4512-ba27-594564a31343.png",
+      "imageHint": "testimonial"
     }
   ]
 }

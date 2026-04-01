@@ -1,3 +1,4 @@
+
 import { Hero } from '@/components/sections/Hero';
 import { RecipeGrid } from '@/components/sections/RecipeGrid';
 import { Bonuses } from '@/components/sections/Bonuses';
@@ -138,9 +139,9 @@ export default function Home() {
           <h2 className="mb-12 text-center font-headline text-2xl font-normal text-[#3D1F08]">
             VEJA O QUE DIZ<br /><b className="font-extrabold uppercase">QUEM ADQUIRIU:</b>
           </h2>
-          <div className="flex gap-6 overflow-x-auto pb-8 scrollbar-hide">
+          <div className="flex gap-0 overflow-x-auto pb-8 scrollbar-hide">
             {PlaceHolderImages.filter(p => p.id.startsWith('testimonial-')).map((test, idx) => (
-              <div key={idx} className="w-[300px] shrink-0 overflow-hidden rounded-2xl shadow-xl md:w-[350px]">
+              <div key={idx} className="w-[300px] shrink-0 overflow-hidden md:w-[350px]">
                 <Image
                   src={test.imageUrl}
                   alt={test.description}
