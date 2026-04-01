@@ -47,7 +47,7 @@ export function Offer() {
       <div className="mx-auto max-w-lg">
         <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-black/10 shadow-2xl">
           
-          {/* Header Bar - Timer */}
+          {/* Header Bar - Timer (Estilo Imagem de Referência) */}
           <div className="flex h-16 w-full items-center justify-center gap-4 bg-[#1e1b26] px-4">
             <div className="flex items-center gap-2">
               <Clock className="h-5 w-5 fill-red-600 text-red-600" />
@@ -111,7 +111,7 @@ export function Offer() {
 
             {/* Pricing Section */}
             <div className="mb-8">
-              <p className="text-xl font-black text-red-600/60 line-through decoration-red-600/40 decoration-2">
+              <p className="text-xl font-black text-[#3D1F08]/60 line-through decoration-[#3D1F08]/40 decoration-2">
                 De $ 197,00
               </p>
               <div className="mt-2 flex items-baseline justify-center gap-1">
@@ -121,8 +121,8 @@ export function Offer() {
                 </span>
                 <span className="text-5xl font-bold text-primary">,90</span>
               </div>
-              <div className="mt-4 inline-block rounded-full bg-primary/10 px-6 py-2">
-                <p className="text-base font-black uppercase tracking-widest text-primary">
+              <div className="mt-4">
+                <p className="text-base font-black uppercase tracking-widest text-[#3D1F08]">
                   PAGAMENTO ÚNICO
                 </p>
               </div>
