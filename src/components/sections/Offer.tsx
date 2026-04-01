@@ -3,8 +3,8 @@ import { CheckCircle2, Star } from 'lucide-react';
 
 const valueItems = [
   { name: '+350 Cafés da Manhã de Nutri', price: 'R$129,00' },
-  { name: 'Bônus 1: 250 Sobremesas Zero Açúcar', price: '$27.00' },
-  { name: 'Bônus 2: 80 Receitas de Marmitas FIT', price: '$29.00' },
+  { name: 'Bônus 1: 250 Sobremesas Zero Açúcar', price: '$29.00' },
+  { name: 'Bônus 2: 80 Receitas de Marmitas FIT', price: '$27.00' },
   { name: 'Bônus 3: 50 Receitas de Sucos Detox', price: '$24.00' },
   { name: 'Bônus 4: 50 Receitas Anti-Inflamatórias', price: '$24.00' },
   { name: 'Bônus 5: 30 Receitas de Pães sem Glúten', price: '$19.00' },

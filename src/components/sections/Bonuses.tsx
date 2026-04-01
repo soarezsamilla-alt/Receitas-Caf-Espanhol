@@ -4,13 +4,13 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 const bonuses = [
   { 
     title: '250 SOBREMESAS ZERO AÇÚCAR', 
-    oldPrice: '$27.00', 
+    oldPrice: '$29.00', 
     id: 'BÔNUS 1',
     imgId: 'bonus-desserts'
   },
   { 
     title: '80 RECEITAS DE MARMITAS FIT', 
-    oldPrice: '$29.00', 
+    oldPrice: '$27.00', 
     id: 'BÔNUS 2',
     imgId: 'bonus-lunch'
   },
