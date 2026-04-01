@@ -1,4 +1,5 @@
+
 import { config } from 'dotenv';
 config();
 
-import '@/ai/flows/personalized-breakfast-recipe-suggestion.ts';
+// Se eliminó la referencia al flujo de sugerencias personalizadas
