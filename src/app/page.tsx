@@ -6,6 +6,7 @@ import { Offer } from '@/components/sections/Offer';
 import { FAQ } from '@/components/sections/FAQ';
 import { Footer } from '@/components/sections/Footer';
 import { SalesPopup } from '@/components/sections/SalesPopup';
+import { AITool } from '@/components/sections/AITool';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Check, X } from 'lucide-react';
@@ -22,17 +23,17 @@ export default function Home() {
       <section className="bg-background px-4 py-10">
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-12 text-center font-headline text-2xl font-normal text-[#3D1F08]">
-            O QUE VOCÊ<br /><b className="font-extrabold uppercase">VAI ENCONTRAR:</b>
+            LO QUE VAS<br /><b className="font-extrabold uppercase">A ENCONTRAR:</b>
           </h2>
           <ul className="space-y-1">
             {[
-              { icon: '✓', text: 'Receitas de até 350 calorias' },
-              { icon: '☺', text: 'Com sabores deliciosos de verdade' },
-              { icon: '🥄', text: 'Com proteínas e vitaminas essenciais' },
-              { icon: '⏰', text: 'Prontas em até 15 minutos' },
-              { icon: '🛒', text: 'Com ingredientes comuns' },
-              { icon: '🍴', text: 'Use apenas liquidificador e frigideira' },
-              { icon: '📋', text: 'Passo a passo de preparo' },
+              { icon: '✓', text: 'Recetas de hasta 350 calorías' },
+              { icon: '☺', text: 'Con sabores deliciosos de verdad' },
+              { icon: '🥄', text: 'Con proteínas y vitaminas esenciales' },
+              { icon: '⏰', text: 'Listas en hasta 15 minutos' },
+              { icon: '🛒', text: 'Con ingredientes comunes' },
+              { icon: '🍴', text: 'Usa solo licuadora y sartén' },
+              { icon: '📋', text: 'Paso a paso de preparación' },
             ].map((item, idx) => (
               <li key={idx} className="flex items-start gap-4 text-base font-medium leading-tight">
                 <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-base font-bold text-white">
@@ -44,13 +45,16 @@ export default function Home() {
           </ul>
           <div className="mt-16 text-center">
             <a href="#price" className="animate-pulse-cta active-scale inline-block rounded-full bg-primary px-10 py-5 text-xl font-bold text-white shadow-xl transition-all hover:bg-primary/90">
-              QUERO AS RECEITAS!
+              ¡QUIERO LAS RECETAS!
             </a>
           </div>
         </div>
       </section>
 
       <RecipeGrid />
+
+      {/* AI Tool Section */}
+      <AITool />
 
       {/* Nutritionist Profile */}
       <section className="bg-background px-4 py-10">
@@ -66,10 +70,10 @@ export default function Home() {
           </div>
           <div className="text-center md:text-left">
             <h2 className="font-headline text-2xl font-normal leading-tight text-center md:text-left">
-              CARDÁPIO FEITO<br /><b className="font-extrabold uppercase text-primary">PELA NUTRICIONISTA</b><br />SHOPIA FONSECA
+              MENÚ CREADO<br /><b className="font-extrabold uppercase text-primary">POR LA NUTRICIONISTA</b><br />SHOPIA FONSECA
             </h2>
             <p className="mt-8 text-lg leading-relaxed text-muted-foreground md:text-xl">
-              Shopia Fonseca, nutricionista especializada em alimentação funcional, criou mais de 350 receitas de cafés da manhã saudáveis, deliciosos de verdade e que ficam prontos em até 15 minutos. Cada receita foi pensada para oferecer todos os nutrientes que seu corpo precisa logo no início do dia, com foco no sabor e na praticidade.
+              Shopia Fonseca, nutricionista especializada en alimentación funcional, creó más de 350 recetas de desayunos saludables, deliciosos de verdad y que están listos en hasta 15 minutos. Cada receta fue pensada para ofrecer todos los nutrientes que su cuerpo necesita al inicio del día, con foco en el sabor y la practicidad.
             </p>
           </div>
         </div>
@@ -81,15 +85,15 @@ export default function Home() {
       <section className="bg-white px-4 py-10">
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-12 text-center font-headline text-2xl font-normal text-[#3D1F08]">
-            PARA PESSOAS<br /><b className="font-extrabold uppercase">QUE ENFRENTAM:</b>
+            PARA PERSONAS<br /><b className="font-extrabold uppercase">QUE ENFRENTAN:</b>
           </h2>
           <ul className="space-y-2">
             {[
-              'Falta de opções saudáveis de café da manhã',
-              'Dificuldade em perder peso e alimentar-se bem',
-              'Falta de receitas saborosas que nutrem',
-              'Falta de receitas rápidas para o café da manhã',
-              'Falta de nutrientes necessários para o dia',
+              'Falta de opciones saludables de desayuno',
+              'Dificultad para perder peso y alimentarse bien',
+              'Falta de recetas sabrosas que nutren',
+              'Falta de recetas rápidas para el desayuno',
+              'Falta de nutrientes necesarios para el día',
             ].map((problem, idx) => (
               <li key={idx} className="flex items-start gap-4 text-base font-medium leading-tight text-[#3D1F08]">
                 <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-lg font-bold text-white">
@@ -106,17 +110,17 @@ export default function Home() {
       <section className="bg-[#3D1F08] px-4 py-10 text-white">
         <div className="mx-auto max-w-4xl">
           <h2 className="mb-12 text-center font-headline text-2xl font-normal">
-            VEJA AS <b className="font-extrabold uppercase">VANTAGENS</b>
+            VEA LAS <b className="font-extrabold uppercase">VENTAJAS</b>
           </h2>
           <ul className="space-y-2">
             {[
-              'Cardápio criado por uma nutricionista',
-              'Mais de 350 opções saudáveis',
-              'Baixíssimas em calorias',
-              'Sabor novo todos os dias sem enjoar',
-              'Feitas em menos de 15 minutos',
-              'Não precisa de utensílios profissionais',
-              'Nutrição completa pra começar o dia',
+              'Menú creado por una nutricionista',
+              'Más de 350 opciones saludables',
+              'Bajísimas en calorías',
+              'Sabor nuevo todos los días sin aburrirse',
+              'Hechas en menos de 15 minutos',
+              'No necesita utensilios profesionales',
+              'Nutrición completa para empezar el día',
             ].map((adv, idx) => (
               <li key={idx} className="flex items-start gap-4 text-base font-medium leading-tight">
                 <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white text-lg font-bold text-primary">
@@ -128,7 +132,7 @@ export default function Home() {
           </ul>
           <div className="mt-16 text-center">
             <a href="#price" className="animate-pulse-cta active-scale inline-block rounded-full bg-primary px-10 py-5 text-xl font-bold text-white shadow-xl transition-all hover:bg-primary/90">
-              QUERO AS RECEITAS!
+              ¡QUIERO LAS RECETAS!
             </a>
           </div>
         </div>
@@ -138,7 +142,7 @@ export default function Home() {
       <section className="bg-secondary px-4 py-10">
         <div className="mx-auto max-w-5xl">
           <h2 className="mb-12 text-center font-headline text-2xl font-normal text-[#3D1F08]">
-            VEJA O QUE DIZ<br /><b className="font-extrabold uppercase">QUEM ADQUIRIU:</b>
+            VEA LO QUE DICE<br /><b className="font-extrabold uppercase">QUIEN LAS ADQUIRIÓ:</b>
           </h2>
           <div className="grid grid-cols-3 gap-2 md:gap-8">
             {PlaceHolderImages.filter(p => p.id.startsWith('testimonial-')).map((test, idx) => (
@@ -163,13 +167,13 @@ export default function Home() {
       <section className="bg-background px-4 py-10">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="mb-12 font-headline text-2xl font-normal text-[#3D1F08]">
-            COMO IREI<br /><b className="font-extrabold uppercase">RECEBER AS RECEITAS?</b>
+            ¿CÓMO<br /><b className="font-extrabold uppercase">RECIBIRÉ LAS RECETAS?</b>
           </h2>
           
           <div className="relative mx-auto my-12 h-64 w-full max-w-2xl">
             <Image
               src={howToReceiveImageUrl}
-              alt="Mockup of devices"
+              alt="Mockup de dispositivos"
               fill
               className="object-contain"
               data-ai-hint="ebook delivery"
@@ -178,12 +182,12 @@ export default function Home() {
 
           <ul className="grid gap-6 text-left md:grid-cols-2">
             {[
-              'Recebe no E-mail e Whatsapp',
-              'Pode ver no celular',
-              'Pode visualizar no computador',
-              'Veja no tablet',
-              'Novas receitas mensalmente',
-              'Perdeu a receita? Enviamos de novo',
+              'Recibe por E-mail y WhatsApp',
+              'Puedes verlo en el celular',
+              'Puedes visualizarlo en la computadora',
+              'Míralo en la tablet',
+              'Nuevas recetas mensualmente',
+              '¿Perdiste la receta? Te la enviamos de nuevo',
             ].map((item, idx) => (
               <li key={idx} className="flex items-center gap-3 text-lg font-bold">
                 <Check className="text-[#2CAC43]" /> {item}
@@ -200,16 +204,16 @@ export default function Home() {
             <div className="relative flex h-32 w-32 shrink-0 items-center justify-center rounded-full bg-[#3D1F08] text-white shadow-xl md:h-40 md:w-40">
                <div className="text-center">
                  <span className="block text-5xl font-black leading-none">7</span>
-                 <span className="block text-sm font-bold uppercase tracking-widest">Dias</span>
-                 <span className="block text-[10px] uppercase">de Garantia</span>
+                 <span className="block text-sm font-bold uppercase tracking-widest">Días</span>
+                 <span className="block text-[10px] uppercase">de Garantía</span>
                </div>
             </div>
             <div className="text-center md:text-left">
               <h3 className="font-headline text-lg font-black text-[#3D1F08] uppercase leading-tight">
-                Sua Satisfação Garantida ou<br />Seu Dinheiro de Volta
+                Su Satisfacción Garantizada o<br />Su Dinero de Vuelta
               </h3>
               <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-                O risco é todo meu! Você tem <strong className="text-primary">7 dias inteiros</strong> para acessar o conteúdo, testar as receitas e ver os resultados. Se você não amar as receitas ou achar que não é para você, basta um clique para receber 100% do seu dinheiro de volta. Sem perguntas e sem complicações.
+                ¡El riesgo es todo mío! Tiene <strong className="text-primary">7 días completos</strong> para acceder al contenido, probar las recetas y ver los resultados. Si no ama las recetas o siente que no es para usted, basta un clic para recibir el 100% de su dinero de vuelta. Sin preguntas y sin complicaciones.
               </p>
             </div>
           </div>

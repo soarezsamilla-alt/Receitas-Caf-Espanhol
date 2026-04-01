@@ -15,7 +15,6 @@ const names = [
 export function SalesPopup() {
   const [visible, setVisible] = useState(false);
   const [currentName, setCurrentName] = useState('');
-  const [index, setIndex] = useState(0);
 
   useEffect(() => {
     // Delay inicial de 6 segundos
@@ -55,7 +54,7 @@ export function SalesPopup() {
             {currentName}
           </p>
           <p className="text-[11px] text-muted-foreground">
-            Acabou de adquirir as receitas! ✅
+            ¡Acaba de adquirir las recetas! ✅
           </p>
         </div>
       </div>

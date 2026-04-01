@@ -4,8 +4,8 @@ import './globals.css';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Nutri Café - 350 Cafés da Manhã de Nutri',
-  description: 'Receitas rápidas, baratas e gostosas para emagrecer sem sofrer.',
+  title: 'Nutri Café - 350 Desayunos de Nutri',
+  description: 'Recetas rápidas, baratas y ricas para adelgazar sin sufrir.',
 };
 
 export default function RootLayout({
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="es">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

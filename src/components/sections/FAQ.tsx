@@ -1,3 +1,4 @@
+
 import {
   Accordion,
   AccordionContent,
@@ -7,32 +8,32 @@ import {
 
 const faqs = [
   {
-    q: "As receitas têm mesmo sabor de verdade?",
-    a: "Sim! O maior foco da nutri Camila foi unir saúde com sabor de verdade. Nada de comida sem graça — são receitas realmente gostosas, testadas e aprovadas."
+    q: "¿Las recetas tienen de verdad buen sabor?",
+    a: "¡Sí! El mayor enfoque de la nutri fue unir salud con sabor de verdad. Nada de comida aburrida — son recetas realmente ricas, probadas y aprobadas."
   },
   {
-    q: "São receitas saudáveis?",
-    a: "Todas são saudáveis, equilibradas e pensadas para oferecer os nutrientes e vitaminas que seu corpo precisa para começar bem o dia."
+    q: "¿Son recetas saludables?",
+    a: "Todas son saludables, equilibradas y pensadas para ofrecer los nutrientes y vitaminas que su cuerpo necesita para empezar bien el día."
   },
   {
-    q: "As receitas servem para a família toda?",
-    a: "Com certeza! São ideias que agradam adultos e crianças, com ingredientes acessíveis e muito sabor."
+    q: "¿Las recetas sirven para toda la familia?",
+    a: "¡Por supuesto! Son ideas que agradan a adultos y niños, con ingredientes accesibles y mucho sabor."
   },
   {
-    q: "As receitas são fáceis de fazer?",
-    a: "Sim! A maioria das receitas é simples, com ingredientes acessíveis e instruções claras, perfeitas para o dia a dia corrido."
+    q: "¿Las recetas son fáciles de hacer?",
+    a: "¡Sí! La mayoría de las recetas son simples, con ingredientes accesibles e instrucciones claras, perfectas para el día a día ajetreado."
   },
   {
-    q: "Preciso saber cozinhar para aproveitar?",
-    a: "Não! As receitas foram pensadas para todos os níveis de habilidade na cozinha — inclusive iniciantes."
+    q: "¿Necesito saber cocinar para aprovechar?",
+    a: "¡No! Las recetas fueron pensadas para todos los niveles de habilidad en la cocina — incluyendo principiantes."
   },
   {
-    q: "Tem lista de ingredientes acessíveis?",
-    a: "Sim. A nutri priorizou ingredientes que você encontra com facilidade em mercados comuns, sem precisar de produtos caros ou raros."
+    q: "¿Tienen una lista de ingredientes accesibles?",
+    a: "Sí. La nutri priorizó ingredientes que encuentras con facilidad en mercados comunes, sin necesidad de productos caros o raros."
   },
   {
-    q: "Vou precisar de batedeira ou utensílios especiais?",
-    a: "Não! As receitas foram pensadas para o dia a dia, usando utensílios simples que você já tem em casa, como colher, garfo, liquidificador e frigideira."
+    q: "¿Necesitaré batidora o utensilios especiales?",
+    a: "¡No! Las recetas fueron pensadas para el día a día, usando utensilios simples que ya tienes en casa, como cuchara, tenedor, licuadora y sartén."
   }
 ];
 
@@ -43,7 +44,7 @@ export function FAQ() {
         <div className="relative mb-16 text-center">
           <div className="absolute top-1/2 hidden h-[2px] w-full bg-primary md:block"></div>
           <h2 className="relative inline-block bg-secondary px-8 font-headline text-2xl font-extrabold text-[#3D1F08]">
-            DÚVIDAS FREQUENTES
+            DUDAS FRECUENTES
           </h2>
         </div>
 

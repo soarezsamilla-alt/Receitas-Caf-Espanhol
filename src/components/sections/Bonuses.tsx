@@ -1,36 +1,37 @@
+
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const bonuses = [
   { 
-    title: '250 SOBREMESAS ZERO AÇÚCAR', 
+    title: '250 POSTRES CERO AZÚCAR', 
     oldPrice: '$29.00', 
-    id: 'BÔNUS 1',
+    id: 'BONO 1',
     imgId: 'bonus-desserts'
   },
   { 
-    title: '80 RECEITAS DE MARMITAS FIT', 
+    title: '80 RECETAS DE VIANDAS FIT', 
     oldPrice: '$27.00', 
-    id: 'BÔNUS 2',
+    id: 'BONO 2',
     imgId: 'bonus-lunch'
   },
   { 
-    title: '50 RECEITAS DE SUCOS DETOX', 
+    title: '50 RECETAS DE JUGOS DETOX', 
     oldPrice: '$24.00', 
-    id: 'BÔNUS 3',
+    id: 'BONO 3',
     imgId: 'bonus-detox'
   },
   { 
-    title: '50 RECEITAS ANTI-INFLAMATÓRIAS', 
-    subtitle: '(Almoço e Jantar)',
+    title: '50 RECETAS ANTIINFLAMATORIAS', 
+    subtitle: '(Almuerzo y Cena)',
     oldPrice: '$24.00', 
-    id: 'BÔNUS 4',
+    id: 'BONO 4',
     imgId: 'bonus-anti-inflammatory'
   },
   { 
-    title: '30 RECEITAS DE PÃES SEM GLÚTEN', 
+    title: '30 RECETAS DE PANES SIN GLUTEN', 
     oldPrice: '$19.00', 
-    id: 'BÔNUS 5',
+    id: 'BONO 5',
     imgId: 'bonus-bread'
   },
 ];
@@ -40,7 +41,7 @@ export function Bonuses() {
     <section className="bg-secondary px-4 py-16">
       <div className="mx-auto max-w-6xl">
         <h2 className="mb-12 text-center font-headline text-2xl font-normal leading-tight text-foreground">
-          RECEBA AINDA<br /><b className="font-extrabold uppercase tracking-tight">+ 5 BÔNUS EXCLUSIVOS:</b>
+          RECIBE ADEMÁS<br /><b className="font-extrabold uppercase tracking-tight">+ 5 BONOS EXCLUSIVOS:</b>
         </h2>
         
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
@@ -79,7 +80,7 @@ export function Bonuses() {
                   <div className="mt-auto pt-4 flex items-center justify-between">
                     <div className="flex flex-col">
                       <del className="text-sm font-bold text-white/80 decoration-white/40 decoration-2">{bonus.oldPrice}</del>
-                      <span className="text-base font-black text-[#0eee43]">GRÁTIS!</span>
+                      <span className="text-base font-black text-[#0eee43]">¡GRATIS!</span>
                     </div>
                     <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white/20 text-xl shadow-inner">
                       🎁
@@ -93,7 +94,7 @@ export function Bonuses() {
 
         <div className="mt-16 text-center">
           <a href="#price" className="animate-pulse-cta active-scale inline-block rounded-full bg-primary px-10 py-5 text-xl font-black uppercase text-white shadow-2xl transition-all hover:bg-primary/90 hover:scale-105">
-            QUERO AS RECEITAS!
+            ¡QUIERO LAS RECETAS!
           </a>
         </div>
       </div>

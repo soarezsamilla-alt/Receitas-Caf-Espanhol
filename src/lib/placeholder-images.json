@@ -2,121 +2,121 @@
   "placeholderImages": [
     {
       "id": "hero-breakfast-1",
-      "description": "Café da manhã saudável 1",
+      "description": "Desayuno saludable 1",
       "imageUrl": "https://image2url.com/r2/default/images/1774900796076-3c837421-fd1a-471a-be41-72a50cb927a6.jpg",
       "imageHint": "healthy breakfast"
     },
     {
       "id": "hero-breakfast-2",
-      "description": "Café da manhã saudável 2",
+      "description": "Desayuno saludable 2",
       "imageUrl": "https://image2url.com/r2/default/images/1774900853589-6b33cfe7-626d-4f2d-819c-afd96ccb321f.jpg",
       "imageHint": "fruit bowl"
     },
     {
       "id": "hero-breakfast-3",
-      "description": "Café da manhã saudável 3",
+      "description": "Desayuno saludable 3",
       "imageUrl": "https://image2url.com/r2/default/images/1774900870278-34880434-97ce-429b-ba8e-8b288187979f.jpg",
       "imageHint": "protein pancakes"
     },
     {
       "id": "hero-breakfast-4",
-      "description": "Café da manhã saudável 4",
+      "description": "Desayuno saludable 4",
       "imageUrl": "https://image2url.com/r2/default/images/1774900884679-49bb61f9-eace-45da-ad96-064ed176b331.jpg",
       "imageHint": "smoothie bowl"
     },
     {
       "id": "hero-breakfast-5",
-      "description": "Café da manhã saudável 5",
+      "description": "Desayuno saludable 5",
       "imageUrl": "https://image2url.com/r2/default/images/1774900900598-64f94bd8-b798-46b4-a69a-7cedef9cd517.jpg",
       "imageHint": "healthy breakfast"
     },
     {
       "id": "hero-breakfast-6",
-      "description": "Café da manhã saudável 6",
+      "description": "Desayuno saludable 6",
       "imageUrl": "https://image2url.com/r2/default/images/1774900918575-b6901500-b285-4831-895a-e80a0825a28f.jpg",
       "imageHint": "egg skillet"
     },
     {
       "id": "hero-breakfast-7",
-      "description": "Café da manhã saudável 7",
+      "description": "Desayuno saludable 7",
       "imageUrl": "https://image2url.com/r2/default/images/1774900932143-5b2ee7ea-d3c2-4b69-8273-10076e99e433.jpg",
       "imageHint": "healthy pizza"
     },
     {
       "id": "hero-breakfast-8",
-      "description": "Café da manhã saudável 8",
+      "description": "Desayuno saludable 8",
       "imageUrl": "https://image2url.com/r2/default/images/1774900947849-1913ec4e-b7f2-4d4c-a6ed-34740920eb6b.jpg",
       "imageHint": "banana pancakes"
     },
     {
       "id": "hero-breakfast-9",
-      "description": "Café da manhã saudável 9",
+      "description": "Desayuno saludable 9",
       "imageUrl": "https://image2url.com/r2/default/images/1774900968118-0d3cbf19-a48a-4f48-b849-926ab71f75c6.jpg",
       "imageHint": "omelette cheese"
     },
     {
       "id": "hero-breakfast-10",
-      "description": "Café da manhã saudável 10",
+      "description": "Desayuno saludable 10",
       "imageUrl": "https://image2url.com/r2/default/images/1774900981947-e9d76845-4635-44d8-9b8d-813573f2a3ea.jpg",
       "imageHint": "fruit salad"
     },
     {
       "id": "recipe-frigideira",
-      "description": "Café de frigideira com ovos e frios",
+      "description": "Desayuno de sartén con huevos y embutidos",
       "imageUrl": "https://image2url.com/r2/default/images/1774732606745-81c07013-c3a0-4315-8b17-a1148b59b8ed.blob",
       "imageHint": "egg skillet"
     },
     {
       "id": "recipe-pizza",
-      "description": "Pizza rápida de frigideira",
+      "description": "Pizza rápida de sartén",
       "imageUrl": "https://image2url.com/r2/default/images/1774733155375-b9ef8a1c-6787-45b4-a6f8-11d0f5f84085.blob",
       "imageHint": "healthy pizza"
     },
     {
       "id": "recipe-panqueca",
-      "description": "Panqueca fit de banana",
+      "description": "Panqueque fit de banana",
       "imageUrl": "https://image2url.com/r2/default/images/1774733604609-f241422e-e402-4b40-9cac-41c27d6c3e18.blob",
       "imageHint": "banana pancakes"
     },
     {
       "id": "recipe-omelete",
-      "description": "Omelete de frios tostada",
+      "description": "Omelette de embutidos tostada",
       "imageUrl": "https://image2url.com/r2/default/images/1774734067258-a3ad31ed-eae0-465e-9480-afb3d91b703f.blob",
       "imageHint": "omelette cheese"
     },
     {
       "id": "recipe-salada",
-      "description": "Salada de frutas digestivas",
+      "description": "Ensalada de frutas digestivas",
       "imageUrl": "https://image2url.com/r2/default/images/1774734387887-4bcfeab1-723b-4311-98d3-dfade64845c7.blob",
       "imageHint": "fruit salad"
     },
     {
       "id": "recipe-pao",
-      "description": "Pão cremoso gratinado",
+      "description": "Pan cremoso gratinado",
       "imageUrl": "https://image2url.com/r2/default/images/1774738002856-577df9c1-f1e8-4b0f-b577-98478f1f63b0.blob",
       "imageHint": "bread cheese"
     },
     {
       "id": "recipe-shakes",
-      "description": "Shakes detox saborosos",
+      "description": "Batidos detox sabrosos",
       "imageUrl": "https://image2url.com/r2/default/images/1774738318507-a62dc767-458a-41e4-87e1-7cfac54d2b46.blob",
       "imageHint": "detox shake"
     },
     {
       "id": "recipe-bolo-caneca",
-      "description": "Bolo de banana de caneca",
+      "description": "Bizcocho de banana en taza",
       "imageUrl": "https://image2url.com/r2/default/images/1774738644316-c41dd96f-890c-454f-8603-4b23afb8285f.blob",
       "imageHint": "banana cake"
     },
     {
       "id": "recipe-sanduiche",
-      "description": "Sanduíche proteico de frigideira",
+      "description": "Sándwich proteico de sartén",
       "imageUrl": "https://image2url.com/r2/default/images/1774739038523-023382fe-57ea-4905-97c3-26b206c0a137.blob",
       "imageHint": "protein sandwich"
     },
     {
       "id": "recipe-brownie",
-      "description": "Brownie de frigideira",
+      "description": "Brownie de sartén",
       "imageUrl": "https://image2url.com/r2/default/images/1774739300746-292c8d91-b1c5-425f-bcc7-8ac04fdc5757.blob",
       "imageHint": "chocolate brownie"
     },
@@ -128,55 +128,55 @@
     },
     {
       "id": "bonus-desserts",
-      "description": "Sugar-free healthy dessert",
+      "description": "Postre saludable sin azúcar",
       "imageUrl": "https://image2url.com/r2/default/images/1774740207755-a6db81b1-6582-4190-8845-07cf5dc7a536.blob",
       "imageHint": "healthy dessert"
     },
     {
       "id": "bonus-lunch",
-      "description": "Healthy meal prep boxes",
+      "description": "Cajas de preparación de comidas saludables",
       "imageUrl": "https://image2url.com/r2/default/images/1774740646276-49365c1f-deb3-41aa-9cad-24a282f3ede3.blob",
       "imageHint": "meal prep"
     },
     {
       "id": "bonus-detox",
-      "description": "Green detox juice",
+      "description": "Jugo detox verde",
       "imageUrl": "https://image2url.com/r2/default/images/1774740835192-3c21cbf5-f8bc-4361-84dd-89a97d8138d3.blob",
       "imageHint": "detox juice"
     },
     {
       "id": "bonus-anti-inflammatory",
-      "description": "Vibrant healthy salad bowl",
+      "description": "Tazón de ensalada saludable vibrante",
       "imageUrl": "https://image2url.com/r2/default/images/1774741032521-f83376dc-9bef-41a8-9473-cca29a937b89.blob",
       "imageHint": "healthy salad"
     },
     {
       "id": "bonus-bread",
-      "description": "Gluten-free artisanal bread",
+      "description": "Pan artesanal sin gluten",
       "imageUrl": "https://image2url.com/r2/default/images/1774741518401-3842e58c-3883-4129-a82b-0ebd5f7baf77.blob",
       "imageHint": "gluten free bread"
     },
     {
       "id": "ebook-mockup",
-      "description": "Digital product mockup on tablet and phone",
+      "description": "Mockup de producto digital en tablet y teléfono",
       "imageUrl": "https://image2url.com/r2/default/images/1774746556032-3f568579-a7a1-44a2-8e0a-3ef79794d924.blob",
       "imageHint": "ebook mockup"
     },
     {
       "id": "testimonial-1",
-      "description": "Depoimento Satisfeito 1",
+      "description": "Testimonio Satisfecho 1",
       "imageUrl": "https://image2url.com/r2/default/images/1775011619811-5389071c-5d38-4859-a514-7e9b4fb5277f.png",
       "imageHint": "testimonial"
     },
     {
       "id": "testimonial-2",
-      "description": "Depoimento Satisfeito 2",
+      "description": "Testimonio Satisfecho 2",
       "imageUrl": "https://image2url.com/r2/default/images/1775011648228-898baa53-3ac5-4595-8708-b5bfc636f748.png",
       "imageHint": "testimonial"
     },
     {
       "id": "testimonial-3",
-      "description": "Depoimento Satisfeito 3",
+      "description": "Testimonio Satisfecho 3",
       "imageUrl": "https://image2url.com/r2/default/images/1775011663325-09f08c27-5df2-4512-ba27-594564a31343.png",
       "imageHint": "testimonial"
     }

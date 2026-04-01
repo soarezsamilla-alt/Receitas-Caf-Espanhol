@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -5,12 +6,12 @@ import Image from 'next/image';
 import { CheckCircle2, Star, Clock } from 'lucide-react';
 
 const valueItems = [
-  { name: '+350 Cafés da Manhã de Nutri', price: '$97.00' },
-  { name: 'Bônus 1: 250 Sobremesas Zero Açúcar', price: '$29.00' },
-  { name: 'Bônus 2: 80 Receitas de Marmitas FIT', price: '$27.00' },
-  { name: 'Bônus 3: 50 Receitas de Sucos Detox', price: '$24.00' },
-  { name: 'Bônus 4: 50 Receitas Anti-Inflamatórias', price: '$24.00' },
-  { name: 'Bônus 5: 30 Receitas de Pães sem Glúten', price: '$19.00' },
+  { name: '+350 Desayunos de Nutri', price: '$97.00' },
+  { name: 'Bono 1: 250 Postres Cero Azúcar', price: '$29.00' },
+  { name: 'Bono 2: 80 Recetas de Viandas FIT', price: '$27.00' },
+  { name: 'Bono 3: 50 Recetas de Jugos Detox', price: '$24.00' },
+  { name: 'Bono 4: 50 Recetas Antiinflamatorias', price: '$24.00' },
+  { name: 'Bono 5: 30 Recetas de Panes sin Gluten', price: '$19.00' },
 ];
 
 export function Offer() {
@@ -52,7 +53,7 @@ export function Offer() {
             <div className="flex items-center gap-2">
               <Clock className="h-4 w-4 fill-red-600 text-red-600" />
               <span className="text-[10px] font-black uppercase tracking-tighter text-red-600">
-                A OFERTA EXPIRA EM
+                LA OFERTA EXPIRA EN
               </span>
             </div>
             <div className="flex items-center gap-1.5">
@@ -79,8 +80,8 @@ export function Offer() {
                 ))}
               </div>
               <h3 className="font-headline text-xl font-black text-[#3D1F08] leading-tight">
-                +350 CAFÉS DA MANHÃ<br />
-                <span className="text-primary uppercase">De Nutri (Com Sabor)®</span>
+                +350 DESAYUNOS<br />
+                <span className="text-primary uppercase">De Nutri (Con Sabor)®</span>
               </h3>
             </header>
 
@@ -88,7 +89,7 @@ export function Offer() {
             <div className="relative mx-auto mb-4 aspect-square w-full max-w-[200px]">
               <Image
                 src={customImageUrl}
-                alt="350 Cafés da Manhã de Nutri Mockup"
+                alt="350 Desayunos de Nutri Mockup"
                 fill
                 className="object-contain"
                 data-ai-hint="ebook mockup"
@@ -97,14 +98,14 @@ export function Offer() {
 
             {/* Highlighted Items */}
             <div className="mb-4 space-y-0.5">
-              <p className="text-sm font-black text-primary uppercase tracking-tight">+ MARMITAS FIT</p>
-              <p className="text-sm font-black text-primary uppercase tracking-tight">+ SOBREMESAS SEM AÇÚCAR</p>
-              <p className="text-sm font-black text-primary uppercase tracking-tight">+ SUCOS DETOX</p>
+              <p className="text-sm font-black text-primary uppercase tracking-tight">+ VIANDAS FIT</p>
+              <p className="text-sm font-black text-primary uppercase tracking-tight">+ POSTRES SIN AZÚCAR</p>
+              <p className="text-sm font-black text-primary uppercase tracking-tight">+ JUGOS DETOX</p>
             </div>
 
             {/* What's Included */}
             <div className="mb-5 space-y-2 rounded-xl bg-primary/5 p-4 text-left border border-primary/10">
-              <p className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground mb-2">Incluso no pacote:</p>
+              <p className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground mb-2">Incluido en el paquete:</p>
               {valueItems.map((item, idx) => (
                 <div key={idx} className="flex items-center justify-between text-xs font-medium">
                   <span className="flex items-center gap-1.5 text-[#3D1F08]">
@@ -130,7 +131,7 @@ export function Offer() {
               </div>
               <div className="mt-2">
                 <p className="text-sm font-black uppercase tracking-widest text-[#3D1F08]">
-                  PAGAMENTO ÚNICO
+                  PAGO ÚNICO
                 </p>
               </div>
             </div>
@@ -143,16 +144,16 @@ export function Offer() {
                 rel="noopener noreferrer"
                 className="animate-pulse-cta active-scale flex w-full items-center justify-center rounded-xl bg-[#2CAC43] py-4 text-lg font-black uppercase text-white shadow-lg transition-all hover:bg-[#1e8a32]"
               >
-                COMPRAR AGORA!
+                ¡COMPRAR AHORA!
               </a>
               
               <p className="animate-pulse text-xs font-black text-red-600">
-                Você NÃO vai encontrar esse preço depois.
+                NO vas a encontrar este precio después.
               </p>
 
               <div className="flex items-center justify-center gap-3 text-[9px] font-bold uppercase text-muted-foreground/60">
                 <span className="flex items-center gap-1">🔒 Compra Segura</span>
-                <span className="flex items-center gap-1">✅ Acesso Imediato</span>
+                <span className="flex items-center gap-1">✅ Acceso Inmediato</span>
               </div>
             </div>
           </div>

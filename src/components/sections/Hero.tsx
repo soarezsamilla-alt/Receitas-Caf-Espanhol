@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -17,11 +18,11 @@ export function Hero() {
 
       <div className="relative z-10 mx-auto max-w-6xl">
         <h1 className="font-headline text-2xl font-extrabold uppercase leading-tight tracking-tight">
-          +350 CAFÉS DA MANHÃ DE NUTRI RÁPIDOS, BARATOS E GOSTOSOS PRA EMAGRECER SEM SOFRER
+          +350 DESAYUNOS DE NUTRI RÁPIDOS, BARATOS Y RICOS PARA ADELGAZAR SIN SUFRIR
         </h1>
         <p className="mx-auto mt-8 max-w-3xl text-base text-[#FAE8CE]">
-          Prontas em até 15 minutos, com ingredientes que você já tem em casa.
-          Pare de comer o mesmo pão com ovo por falta de tempo e criatividade.
+          Listos en hasta 15 minutos, con ingredientes que ya tienes en casa.
+          Deja de comer el mismo pan con huevo por falta de tiempo y creatividad.
         </p>
 
         {/* Carousel */}
@@ -44,7 +45,7 @@ export function Hero() {
 
         <div className="mt-12">
           <Button asChild size="lg" className="animate-pulse-cta active-scale h-16 rounded-full bg-primary px-12 text-xl font-bold uppercase tracking-wide transition-transform hover:scale-105">
-            <a href="#price">Quero as Receitas!</a>
+            <a href="#price">¡Quiero las Recetas!</a>
           </Button>
         </div>
       </div>

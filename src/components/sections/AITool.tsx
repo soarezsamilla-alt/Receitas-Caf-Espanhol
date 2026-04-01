@@ -11,7 +11,7 @@ import { personalizedBreakfastRecipeSuggestion, type PersonalizedBreakfastRecipe
 export function AITool() {
   const [ingredients, setIngredients] = useState('');
   const [time, setTime] = useState('15');
-  const [goal, setGoal] = useState('Emagrecimento');
+  const [goal, setGoal] = useState('Pérdida de Peso');
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<PersonalizedBreakfastRecipeSuggestionOutput | null>(null);
 
@@ -39,10 +39,10 @@ export function AITool() {
       <div className="mx-auto max-w-4xl">
         <div className="mb-12 text-center">
           <h2 className="font-headline text-3xl font-extrabold text-foreground md:text-4xl">
-            GERADOR DE RECEITAS <span className="text-primary">PERSONALIZADAS COM IA</span>
+            GENERADOR DE RECETAS <span className="text-primary">PERSONALIZADAS CON IA</span>
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Tem ingredientes sobrando? Nossa IA cria um café da manhã de nutri exclusivo para você!
+            ¿Tienes ingredientes de sobra? ¡Nuestra IA crea un desayuno de nutri exclusivo para ti!
           </p>
         </div>
 
@@ -50,22 +50,22 @@ export function AITool() {
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <UtensilsCrossed className="text-primary" />
-              O que você tem na geladeira?
+              ¿Qué tienes en la nevera?
             </CardTitle>
-            <CardDescription>Digite os ingredientes separados por vírgula</CardDescription>
+            <CardDescription>Escribe los ingredientes separados por coma</CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="grid gap-4 md:grid-cols-2">
               <div className="space-y-2">
-                <label className="text-sm font-bold">Ingredientes Disponíveis</label>
+                <label className="text-sm font-bold">Ingredientes Disponibles</label>
                 <Input 
-                  placeholder="Ex: Ovo, banana, aveia, canela..." 
+                  placeholder="Ej: Huevo, banana, avena, canela..." 
                   value={ingredients}
                   onChange={(e) => setIngredients(e.target.value)}
                 />
               </div>
               <div className="space-y-2">
-                <label className="text-sm font-bold">Tempo Máximo (minutos)</label>
+                <label className="text-sm font-bold">Tiempo Máximo (minutos)</label>
                 <Input 
                   type="number" 
                   value={time}
@@ -76,7 +76,7 @@ export function AITool() {
             <div className="space-y-2">
               <label className="text-sm font-bold">Meta Dietética</label>
               <Input 
-                placeholder="Ex: Emagrecimento, Ganho de Massa, Sem Glúten..." 
+                placeholder="Ej: Adelgazar, Ganar Masa, Sin Gluten..." 
                 value={goal}
                 onChange={(e) => setGoal(e.target.value)}
               />
@@ -88,7 +88,7 @@ export function AITool() {
               onClick={handleGenerate}
             >
               {loading ? <Loader2 className="mr-2 animate-spin" /> : <Sparkles className="mr-2 h-5 w-5" />}
-              GERAR RECEITA PERSONALIZADA
+              GENERAR RECETA PERSONALIZADA
             </Button>
           </CardContent>
         </Card>
@@ -126,7 +126,7 @@ export function AITool() {
                       </ul>
                     </div>
                     <div>
-                      <h4 className="mb-4 font-headline text-xl font-bold underline decoration-primary decoration-4 underline-offset-4">Modo de Preparo:</h4>
+                      <h4 className="mb-4 font-headline text-xl font-bold underline decoration-primary decoration-4 underline-offset-4">Modo de Preparación:</h4>
                       <ol className="list-decimal space-y-3 pl-4">
                         {recipe.instructions.map((step, j) => (
                           <li key={j} className="text-sm font-medium leading-relaxed">{step}</li>
