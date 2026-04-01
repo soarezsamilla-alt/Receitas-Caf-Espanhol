@@ -15,7 +15,7 @@ const bonuses = [
     imgId: 'bonus-lunch'
   },
   { 
-    title: '80 RECEITAS DE SUCOS DETOX', 
+    title: '50 RECEITAS DE SUCOS DETOX', 
     oldPrice: 'R$29,00', 
     id: 'BÔNUS 3',
     imgId: 'bonus-detox'

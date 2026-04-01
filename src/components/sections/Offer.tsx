@@ -5,7 +5,7 @@ const valueItems = [
   { name: '+350 Cafés da Manhã de Nutri', price: 'R$129,00' },
   { name: 'Bônus 1: 250 Sobremesas Zero Açúcar', price: 'R$29,00' },
   { name: 'Bônus 2: 80 Receitas de Marmitas FIT', price: 'R$15,00' },
-  { name: 'Bônus 3: 80 Receitas de Sucos Detox', price: 'R$29,00' },
+  { name: 'Bônus 3: 50 Receitas de Sucos Detox', price: 'R$29,00' },
   { name: 'Bônus 4: 50 Receitas Anti-Inflamatórias', price: 'R$19,00' },
   { name: 'Bônus 5: 30 Receitas de Pães sem Glúten', price: 'R$19,00' },
 ];
