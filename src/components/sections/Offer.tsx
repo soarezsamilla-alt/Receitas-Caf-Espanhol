@@ -47,7 +47,7 @@ export function Offer() {
       <div className="mx-auto max-w-lg">
         <div className="relative overflow-hidden rounded-[2.5rem] bg-white border border-black/10 shadow-2xl">
           
-          {/* Header Bar - Timer (Estilo Imagem de Referência) */}
+          {/* Header Bar - Timer */}
           <div className="flex h-16 w-full items-center justify-center gap-4 bg-[#1e1b26] px-4">
             <div className="flex items-center gap-2">
               <Clock className="h-5 w-5 fill-red-600 text-red-600" />
@@ -93,6 +93,13 @@ export function Offer() {
                 className="object-contain"
                 data-ai-hint="ebook mockup"
               />
+            </div>
+
+            {/* Highlighted Items */}
+            <div className="mb-8 space-y-1">
+              <p className="text-base font-black text-primary uppercase tracking-tight">+ MARMITAS FIT</p>
+              <p className="text-base font-black text-primary uppercase tracking-tight">+ SOBREMESAS SEM AÇÚCAR</p>
+              <p className="text-base font-black text-primary uppercase tracking-tight">+ SUCOS DETOX</p>
             </div>
 
             {/* What's Included */}
