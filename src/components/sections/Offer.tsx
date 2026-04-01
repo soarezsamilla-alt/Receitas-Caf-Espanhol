@@ -33,7 +33,7 @@ export function Offer() {
                 ))}
               </div>
               <h3 className="font-headline text-2xl font-black text-[#3D1F08] leading-tight">
-                350 CAFÉS DA MANHÃ<br />
+                +350 CAFÉS DA MANHÃ<br />
                 <span className="text-primary uppercase">De Nutri (Com Sabor)®</span>
               </h3>
             </header>
@@ -67,7 +67,7 @@ export function Offer() {
             <div className="mb-8">
               <p className="text-sm font-bold text-muted-foreground line-through">De $ 197,00 por apenas:</p>
               <div className="mt-1 flex items-center justify-center gap-1">
-                <span className="text-6xl font-black text-primary tracking-tighter">$ 7.90</span>
+                <span className="text-7xl font-black text-primary tracking-tighter">$ 7.90</span>
               </div>
               <p className="mt-1 text-xs font-medium text-muted-foreground">Pagamento único • Acesso vitalício</p>
             </div>
