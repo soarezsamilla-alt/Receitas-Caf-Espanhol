@@ -115,11 +115,11 @@ export function Offer() {
                 De $ 197,00
               </p>
               <div className="mt-2 flex items-baseline justify-center gap-1">
-                <span className="text-3xl font-bold text-primary">$</span>
+                <span className="text-5xl font-bold text-primary">$</span>
                 <span className="text-8xl font-black tracking-tighter text-primary">
                   7
                 </span>
-                <span className="text-3xl font-bold text-primary">,90</span>
+                <span className="text-5xl font-bold text-primary">,90</span>
               </div>
               <p className="mt-2 text-xs font-black uppercase tracking-widest text-[#8a8a8a]">
                 PAGAMENTO ÚNICO
