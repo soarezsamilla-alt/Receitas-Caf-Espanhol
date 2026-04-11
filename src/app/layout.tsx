@@ -19,6 +19,8 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet" />
+        
+        {/* Facebook Pixel */}
         <Script id="fb-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
@@ -41,6 +43,18 @@ export default function RootLayout({
             src="https://www.facebook.com/tr?id=1378356777638331&ev=PageView&noscript=1"
           />
         </noscript>
+
+        {/* Utmify Script */}
+        <Script id="utmify-pixel" strategy="afterInteractive">
+          {`
+            window.pixelId = "69d9b2b678e390ef3e5a7bfd";
+            var a = document.createElement("script");
+            a.setAttribute("async", "");
+            a.setAttribute("defer", "");
+            a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+            document.head.appendChild(a);
+          `}
+        </Script>
       </head>
       <body className="font-body antialiased">
         {children}
