@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -125,7 +124,7 @@ export function Offer() {
               <div className="mt-1 flex items-baseline justify-center gap-1">
                 <span className="text-4xl font-bold text-primary">$</span>
                 <span className="text-7xl font-black tracking-tighter text-primary">
-                  7
+                  5
                 </span>
                 <span className="text-4xl font-bold text-primary">,90</span>
               </div>
