@@ -43,18 +43,6 @@ export default function RootLayout({
           />
         </noscript>
 
-        {/* Utmify Script */}
-        <Script id="utmify-pixel" strategy="afterInteractive">
-          {`
-            window.pixelId = "69d9b2b678e390ef3e5a7bfd";
-            var a = document.createElement("script");
-            a.setAttribute("async", "");
-            a.setAttribute("defer", "");
-            a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
-            document.head.appendChild(a);
-          `}
-        </Script>
-
         {/* Utmify UTMs Script */}
         <Script
           src="https://cdn.utmify.com.br/scripts/utms/latest.js"
