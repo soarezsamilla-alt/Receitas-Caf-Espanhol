@@ -42,14 +42,6 @@ export default function RootLayout({
             src="https://www.facebook.com/tr?id=1378356777638331&ev=PageView&noscript=1"
           />
         </noscript>
-
-        {/* Utmify UTMs Script */}
-        <Script
-          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-          data-utmify-prevent-xcod-sck
-          data-utmify-prevent-subids
-          strategy="afterInteractive"
-        />
       </head>
       <body className="font-body antialiased">
         {children}
