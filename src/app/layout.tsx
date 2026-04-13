@@ -42,6 +42,18 @@ export default function RootLayout({
             src="https://www.facebook.com/tr?id=1378356777638331&ev=PageView&noscript=1"
           />
         </noscript>
+
+        {/* Utmify Pixel Script */}
+        <Script id="utmify-pixel" strategy="afterInteractive">
+          {`
+            window.pixelId = "69dc405990703250f331c7bb";
+            var a = document.createElement("script");
+            a.setAttribute("async", "");
+            a.setAttribute("defer", "");
+            a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+            document.head.appendChild(a);
+          `}
+        </Script>
       </head>
       <body className="font-body antialiased">
         {children}
