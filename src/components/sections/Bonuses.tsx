@@ -4,7 +4,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 const bonuses = [
   { 
     title: '250 POSTRES CERO AZÚCAR', 
-    oldPrice: '$24.00', 
+    oldPrice: '$19.00', 
     id: 'BONO 1',
     imgId: 'bonus-desserts'
   },
@@ -16,20 +16,20 @@ const bonuses = [
   },
   { 
     title: '50 RECETAS DE JUGOS DETOX', 
-    oldPrice: '$24.00', 
+    oldPrice: '$19.00', 
     id: 'BONO 3',
     imgId: 'bonus-detox'
   },
   { 
     title: '50 RECETAS ANTIINFLAMATORIAS', 
     subtitle: '(Almuerzo y Cena)',
-    oldPrice: '$24.00', 
+    oldPrice: '$19.00', 
     id: 'BONO 4',
     imgId: 'bonus-anti-inflammatory'
   },
   { 
     title: '30 RECETAS DE PANES SIN GLUTEN', 
-    oldPrice: '$19.00', 
+    oldPrice: '$16.00', 
     id: 'BONO 5',
     imgId: 'bonus-bread'
   },
