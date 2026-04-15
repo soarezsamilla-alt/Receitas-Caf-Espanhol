@@ -181,18 +181,19 @@ export default function Home() {
                 <Card key={idx} className="border-none bg-white shadow-lg transition-transform hover:scale-[1.02]">
                   <CardContent className="p-6">
                     <div className="mb-4 flex items-center gap-4">
-                      <div className="relative h-14 w-14 overflow-hidden rounded-full border-2 border-primary/20">
+                      <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full border-2 border-primary/20">
                         <Image
                           src={avatar.imageUrl}
                           alt={test.name}
-                          fill
-                          className="object-cover"
+                          width={56}
+                          height={56}
+                          className="h-full w-full object-cover"
                           data-ai-hint={avatar.imageHint}
                         />
                       </div>
                       <div>
-                        <h4 className="font-headline font-bold text-[#3D1F08]">{test.name}</h4>
-                        <div className="flex gap-0.5">
+                        <h4 className="font-headline font-bold text-[#3D1F08] leading-tight">{test.name}</h4>
+                        <div className="flex gap-0.5 mt-1">
                           {[...Array(test.rating)].map((_, i) => (
                             <Star key={i} className="h-3 w-3 fill-yellow-400 text-yellow-400" />
                           ))}
