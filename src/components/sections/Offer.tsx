@@ -119,7 +119,7 @@ export function Offer() {
             {/* Pricing Section */}
             <div className="mb-5">
               <p className="text-lg font-black text-[#3D1F08]/60 line-through decoration-[#3D1F08]/40 decoration-2">
-                De $ 197,00
+                De $ 97,00
               </p>
               <div className="mt-1 flex items-baseline justify-center gap-1">
                 <span className="text-4xl font-bold text-primary">$</span>
