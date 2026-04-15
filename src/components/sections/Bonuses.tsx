@@ -10,26 +10,26 @@ const bonuses = [
   },
   { 
     title: '80 RECETAS DE VIANDAS FIT', 
-    oldPrice: '$20.00', 
+    oldPrice: '$15.00', 
     id: 'BONO 2',
     imgId: 'bonus-lunch'
   },
   { 
     title: '50 RECETAS DE JUGOS DETOX', 
-    oldPrice: '$19.00', 
+    oldPrice: '$12.00', 
     id: 'BONO 3',
     imgId: 'bonus-detox'
   },
   { 
     title: '50 RECETAS ANTIINFLAMATORIAS', 
     subtitle: '(Almuerzo y Cena)',
-    oldPrice: '$19.00', 
+    oldPrice: '$12.00', 
     id: 'BONO 4',
     imgId: 'bonus-anti-inflammatory'
   },
   { 
     title: '30 RECETAS DE PANES SIN GLUTEN', 
-    oldPrice: '$16.00', 
+    oldPrice: '$12.00', 
     id: 'BONO 5',
     imgId: 'bonus-bread'
   },

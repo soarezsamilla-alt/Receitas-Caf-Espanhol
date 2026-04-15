@@ -6,11 +6,11 @@ import { CheckCircle2, Star, Clock } from 'lucide-react';
 
 const valueItems = [
   { name: '+350 Desayunos de Nutri', price: '$27.00' },
-  { name: 'Bono 1: 250 Postres Cero Azúcar', price: '$24.00' },
-  { name: 'Bono 2: 80 Recetas de Viandas FIT', price: '$20.00' },
-  { name: 'Bono 3: 50 Recetas de Jugos Detox', price: '$19.00' },
-  { name: 'Bono 4: 50 Recetas Antiinflamatorias', price: '$19.00' },
-  { name: 'Bono 5: 30 Recetas de Panes sin Gluten', price: '$16.00' },
+  { name: 'Bono 1: 250 Postres Cero Azúcar', price: '$19.00' },
+  { name: 'Bono 2: 80 Recetas de Viandas FIT', price: '$15.00' },
+  { name: 'Bono 3: 50 Recetas de Jugos Detox', price: '$12.00' },
+  { name: 'Bono 4: 50 Recetas Antiinflamatorias', price: '$12.00' },
+  { name: 'Bono 5: 30 Recetas de Panes sin Gluten', price: '$12.00' },
   { name: 'Acceso Vitalicio', price: 'INCLUIDO' },
   { name: 'Actualizaciones Semanales', price: 'INCLUIDO' },
 ];
