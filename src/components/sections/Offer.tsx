@@ -11,6 +11,8 @@ const valueItems = [
   { name: 'Bono 3: 50 Recetas de Jugos Detox', price: '$19.00' },
   { name: 'Bono 4: 50 Recetas Antiinflamatorias', price: '$19.00' },
   { name: 'Bono 5: 30 Recetas de Panes sin Gluten', price: '$16.00' },
+  { name: 'Acceso Vitalicio', price: 'INCLUIDO' },
+  { name: 'Actualizaciones Semanales', price: 'INCLUIDO' },
 ];
 
 export function Offer() {
@@ -43,7 +45,7 @@ export function Offer() {
 
   return (
     <section id="price" className="bg-secondary/50 px-4 py-10">
-      <div className="mx-auto max-lg">
+      <div className="mx-auto max-w-lg">
         {/* Main Card with Brilliant Border and Glow Effect */}
         <div className="relative overflow-hidden rounded-[2rem] bg-white border-2 border-primary shadow-[0_0_20px_rgba(232,96,10,0.4)] transition-shadow duration-300">
           
