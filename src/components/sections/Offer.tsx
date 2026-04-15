@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { CheckCircle2, Star, Clock } from 'lucide-react';
 
 const valueItems = [
-  { name: '+350 Desayunos de Nutri', price: '$97.00' },
+  { name: '+350 Desayunos de Nutri', price: '$37.00' },
   { name: 'Bono 1: 250 Postres Cero Azúcar', price: '$29.00' },
   { name: 'Bono 2: 80 Recetas de Viandas FIT', price: '$27.00' },
   { name: 'Bono 3: 50 Recetas de Jugos Detox', price: '$24.00' },
@@ -43,7 +43,7 @@ export function Offer() {
 
   return (
     <section id="price" className="bg-secondary/50 px-4 py-10">
-      <div className="mx-auto max-w-lg">
+      <div className="mx-auto max-lg">
         {/* Main Card with Brilliant Border and Glow Effect */}
         <div className="relative overflow-hidden rounded-[2rem] bg-white border-2 border-primary shadow-[0_0_20px_rgba(232,96,10,0.4)] transition-shadow duration-300">
           
