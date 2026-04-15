@@ -6,7 +6,7 @@ import { CheckCircle2, Star, Clock } from 'lucide-react';
 
 const valueItems = [
   { name: '+350 Desayunos de Nutri', price: '$37.00' },
-  { name: 'Bono 1: 250 Postres Cero Azúcar', price: '$29.00' },
+  { name: 'Bono 1: 250 Postres Cero Azúcar', price: '$24.00' },
   { name: 'Bono 2: 80 Recetas de Viandas FIT', price: '$27.00' },
   { name: 'Bono 3: 50 Recetas de Jugos Detox', price: '$24.00' },
   { name: 'Bono 4: 50 Recetas Antiinflamatorias', price: '$24.00' },
