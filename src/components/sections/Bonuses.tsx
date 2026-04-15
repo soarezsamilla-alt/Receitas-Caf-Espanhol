@@ -1,17 +1,16 @@
-
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const bonuses = [
   { 
     title: '250 POSTRES CERO AZÚCAR', 
-    oldPrice: '$29.00', 
+    oldPrice: '$24.00', 
     id: 'BONO 1',
     imgId: 'bonus-desserts'
   },
   { 
     title: '80 RECETAS DE VIANDAS FIT', 
-    oldPrice: '$27.00', 
+    oldPrice: '$20.00', 
     id: 'BONO 2',
     imgId: 'bonus-lunch'
   },
@@ -59,7 +58,7 @@ export function Bonuses() {
                     data-ai-hint={img.imageHint}
                   />
                   
-                  {/* Destaque BÔNUS - Badge Flutuante com Efeito */}
+                  {/* Destaque BÔNUS - Badge Flutuante con Efeito */}
                   <div className="absolute left-3 top-3 z-10">
                     <div className="relative">
                       <div className="absolute -inset-1 animate-pulse rounded-lg bg-white/50 blur"></div>
