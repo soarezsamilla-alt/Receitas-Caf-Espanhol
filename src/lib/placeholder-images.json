@@ -163,22 +163,40 @@
       "imageHint": "ebook mockup"
     },
     {
-      "id": "testimonial-1",
-      "description": "Testimonio Satisfecho 1",
-      "imageUrl": "https://image2url.com/r2/default/images/1775011619811-5389071c-5d38-4859-a514-7e9b4fb5277f.png",
-      "imageHint": "testimonial"
+      "id": "avatar-female-1",
+      "description": "Avatar de Lucía Méndez",
+      "imageUrl": "https://picsum.photos/seed/lucia/200/200",
+      "imageHint": "woman portrait"
     },
     {
-      "id": "testimonial-2",
-      "description": "Testimonio Satisfecho 2",
-      "imageUrl": "https://image2url.com/r2/default/images/1775011648228-898baa53-3ac5-4595-8708-b5bfc636f748.png",
-      "imageHint": "testimonial"
+      "id": "avatar-male-1",
+      "description": "Avatar de Carlos Rivera",
+      "imageUrl": "https://picsum.photos/seed/carlos/200/200",
+      "imageHint": "man portrait"
     },
     {
-      "id": "testimonial-3",
-      "description": "Testimonio Satisfecho 3",
-      "imageUrl": "https://image2url.com/r2/default/images/1775011663325-09f08c27-5df2-4512-ba27-594564a31343.png",
-      "imageHint": "testimonial"
+      "id": "avatar-female-2",
+      "description": "Avatar de Elena Gómez",
+      "imageUrl": "https://picsum.photos/seed/elena/200/200",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "avatar-male-2",
+      "description": "Avatar de Mateo Torres",
+      "imageUrl": "https://picsum.photos/seed/mateo/200/200",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "avatar-female-3",
+      "description": "Avatar de Sofía Castro",
+      "imageUrl": "https://picsum.photos/seed/sofia/200/200",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "avatar-male-3",
+      "description": "Avatar de Andrés Pardo",
+      "imageUrl": "https://picsum.photos/seed/andres/200/200",
+      "imageHint": "man portrait"
     }
   ]
 }

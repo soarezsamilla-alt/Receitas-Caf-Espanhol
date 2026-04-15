@@ -8,7 +8,47 @@ import { Footer } from '@/components/sections/Footer';
 import { SalesPopup } from '@/components/sections/SalesPopup';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Check, X } from 'lucide-react';
+import { Check, X, Star } from 'lucide-react';
+import { Card, CardContent } from '@/components/ui/card';
+
+const testimonials = [
+  {
+    name: 'Lucía Méndez',
+    comment: '¡Increíble! He bajado 4 kilos en un mes sin pasar hambre. Los panqueques de banana son mi salvación cada mañana.',
+    avatarId: 'avatar-female-1',
+    rating: 5
+  },
+  {
+    name: 'Carlos Rivera',
+    comment: 'Como alguien que siempre tiene prisa, estas recetas de 15 minutos son perfectas. Sabrosas y realmente me mantienen lleno.',
+    avatarId: 'avatar-male-1',
+    rating: 5
+  },
+  {
+    name: 'Elena Gómez',
+    comment: 'Nunca pensé que la avena pudiera saber tan bien. Las combinaciones de la nutri son geniales. ¡Totalmente recomendado!',
+    avatarId: 'avatar-female-2',
+    rating: 5
+  },
+  {
+    name: 'Mateo Torres',
+    comment: 'La mejor inversión que he hecho este año. Variedad increíble y con ingredientes que ya tenía en mi cocina. ¡Excelente!',
+    avatarId: 'avatar-male-2',
+    rating: 5
+  },
+  {
+    name: 'Sofía Castro',
+    comment: 'Soy muy exigente con el sabor y estas recetas me sorprendieron. El brownie de sartén es de otro mundo, delicioso y sano.',
+    avatarId: 'avatar-female-3',
+    rating: 5
+  },
+  {
+    name: 'Andrés Pardo',
+    comment: 'Práctico y económico. No gasto una fortuna en productos raros y los resultados se notan. Mi energía ha mejorado mucho.',
+    avatarId: 'avatar-male-3',
+    rating: 5
+  }
+];
 
 export default function Home() {
   const nutritionist = PlaceHolderImages.find(p => p.id === 'nutritionist') || PlaceHolderImages[0];
@@ -135,24 +175,43 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="bg-secondary px-4 py-10">
-        <div className="mx-auto max-w-5xl">
+      <section className="bg-secondary px-4 py-16">
+        <div className="mx-auto max-w-6xl">
           <h2 className="mb-12 text-center font-headline text-2xl font-normal text-[#3D1F08]">
             VEA LO QUE DICE<br /><b className="font-extrabold uppercase">QUIEN LAS ADQUIRIÓ:</b>
           </h2>
-          <div className="grid grid-cols-3 gap-2 md:gap-8">
-            {PlaceHolderImages.filter(p => p.id.startsWith('testimonial-')).map((test, idx) => (
-              <div key={idx} className="overflow-hidden rounded-xl md:rounded-3xl shadow-lg md:shadow-xl transition-transform hover:scale-[1.02]">
-                <Image
-                  src={test.imageUrl}
-                  alt={test.description}
-                  width={400}
-                  height={600}
-                  className="h-auto w-full object-contain"
-                  data-ai-hint={test.imageHint}
-                />
-              </div>
-            ))}
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {testimonials.map((test, idx) => {
+              const avatar = PlaceHolderImages.find(p => p.id === test.avatarId) || PlaceHolderImages[0];
+              return (
+                <Card key={idx} className="border-none bg-white shadow-lg transition-transform hover:scale-[1.02]">
+                  <CardContent className="p-6">
+                    <div className="mb-4 flex items-center gap-4">
+                      <div className="relative h-14 w-14 overflow-hidden rounded-full border-2 border-primary/20">
+                        <Image
+                          src={avatar.imageUrl}
+                          alt={test.name}
+                          fill
+                          className="object-cover"
+                          data-ai-hint={avatar.imageHint}
+                        />
+                      </div>
+                      <div>
+                        <h4 className="font-headline font-bold text-[#3D1F08]">{test.name}</h4>
+                        <div className="flex gap-0.5">
+                          {[...Array(test.rating)].map((_, i) => (
+                            <Star key={i} className="h-3 w-3 fill-yellow-400 text-yellow-400" />
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                    <p className="text-sm italic leading-relaxed text-muted-foreground">
+                      "{test.comment}"
+                    </p>
+                  </CardContent>
+                </Card>
+              );
+            })}
           </div>
         </div>
       </section>
