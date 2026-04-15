@@ -41,12 +41,6 @@ const testimonials = [
     comment: 'Soy muy exigente con el sabor y estas recetas me sorprendieron. El brownie de sartén es de otro mundo, delicioso y sano.',
     avatarId: 'avatar-female-3',
     rating: 5
-  },
-  {
-    name: 'Andrés Pardo',
-    comment: 'Práctico y económico. No gasto una fortuna en productos raros y los resultados se notan. Mi energía ha mejorado mucho.',
-    avatarId: 'avatar-male-3',
-    rating: 5
   }
 ];
 
